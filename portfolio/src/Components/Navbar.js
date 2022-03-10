@@ -11,7 +11,7 @@ export default function Navbar() {
         <nav>
              <div className="nav-left">
                 <a className="nav-logo" href="https://www.linkedin.com/in/patrycja-mysiak-20a46099/" target="_blank">
-                    <img src={cloud} alt="logo img" className="nav-logo-icon" />Patrycja Mysiak
+                    <img src={cloud} alt="logo img" className="nav-logo-icon" /><span className="nav-left-name">Patrycja Mysiak</span>
                 </a>
             </div>
             <div className="nav-center">
@@ -30,7 +30,7 @@ export default function Navbar() {
             </div>
             <div className="nav-right">
                 <a className="github-link" href="https://github.com/Patka879" target="_blank" rel="noreferrer"> 
-                <img src={gitlogo} className="gitlogo" alt="git logo" />GitHub
+                <img src={gitlogo} className="gitlogo" alt="git logo" /><span className="github-text">GitHub</span>
                 </a>
             </div>
         </nav>
