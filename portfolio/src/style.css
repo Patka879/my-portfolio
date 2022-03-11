@@ -9,7 +9,7 @@ body {
     flex: 1;
     height: 100%;
     width: 100%;
-    background-color: #D1D7E0;
+    background-color: #ebebde;
     font-family: 'Lato', sans-serif;
     padding: 0;
 }
@@ -18,7 +18,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
-    background-color: #4C495B;
+    background-color: #777764;
     height: 100%;
     width: 100%;
     border-style: hidden;
@@ -32,7 +32,7 @@ nav {
         left: 0;
         right: 0;
     display: flex;
-    background-color: #802BB1;
+    background-color: #4f4747;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -45,17 +45,17 @@ nav {
 nav * {
     cursor: pointer;   
     text-decoration: none;
-    color: #D1D7E0;
+    color: #ebebde;
 }
 
 .nav-center {
     display: flex;
-    background-color: #802BB1;
+    background-color: #4f4747;
     position: fixed;
         bottom: 0;
         left: 0;
         right: 0;
-    font-size: 14px;
+    font-size: 15px;
     
 }
 
@@ -111,16 +111,17 @@ nav * {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: #f2f2f2ef;
+    color: #ebebde;
     padding: 10px;
     
 }
 
 .nav-link {
-    border-right: 1px solid #4C495B;
+    border-right: 1px solid #ebebde;
     height: 100%;
     flex: 1;
     justify-content: center;
+    padding: 20px
 }
 
 .nav-link:last-child {
@@ -265,7 +266,7 @@ nav * {
         align-items: center;
         margin: 0 20px;
         text-decoration: none;
-        color: #f2f2f2ef;
+        color: #ebebde;
         padding: 10px;
     }
     .gitlogo {
