@@ -267,10 +267,6 @@ nav * {
     }
     nav {
         padding: 10px 30px 10px 30px;
-        position: static;
-            top: auto;
-            left: auto;
-            right: auto;
         border-radius: 25px 25px 0px 0px;
         margin: 0;
     }
@@ -345,6 +341,7 @@ nav * {
   @media (min-width: 1260px) {
     .projects-container {
         margin-top: 10px;
+        margin-bottom: 0px;
     }
     .project {
         width: 20%;
