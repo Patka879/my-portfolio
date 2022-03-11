@@ -39,7 +39,7 @@ export default [
         id: 5,
         title: "CASH REGISTER",
         coverImg: cash,
-        description: "CASH  REGISTER  DESIGNED  TO  RETURN  CHANGE FROM  GIVEN  AMOUNT  OF  MONEY",
+        description: "CASH REGISTER DESIGNED TO RETURN CHANGE FROM  GIVEN  AMOUNT  OF  MONEY",
         link: "https://github.com/Patka879/exercises/tree/cash_register",
     },
     {
