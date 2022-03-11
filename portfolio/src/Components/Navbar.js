@@ -18,15 +18,15 @@ export default function Navbar() {
                 <NavLink 
                     to="experience" 
                     className={generateLinkClass}
-                >Experience</NavLink>
+                >EXPERIENCE</NavLink>
                 <NavLink 
                     to="skills" 
                     className={generateLinkClass}
-                >Skills</NavLink>
+                >SKILLS</NavLink>
                 <NavLink 
                     to="projects" 
                     className={generateLinkClass}
-                    >Projects</NavLink>
+                    >PROJECTS</NavLink>
             </div>
             <div className="nav-right">
                 <a className="github-link" href="https://github.com/Patka879" target="_blank" rel="noreferrer"> 

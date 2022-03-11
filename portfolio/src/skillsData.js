@@ -29,27 +29,27 @@ export default [
     },
     {
         id: 3,
-        title: "JavaScript",
+        title: "JAVA SCRIPT",
         coverImg: javascriptpic,
     },
     {
         id: 4,
-        title: "React",
+        title: "REACT",
         coverImg: reactpic,
     },
     {
         id: 5,
-        title: "node.js",
+        title: "NODE.JS",
         coverImg: nodepic,
     },
     {
         id: 6,
-        title: "Type Script",
+        title: "TYPE SCRIPT",
         coverImg: typescriptpic,
     },
     {
         id: 7,
-        title: "Git",
+        title: "GIT",
         coverImg: gitpic,
     },
     {
@@ -58,13 +58,18 @@ export default [
         coverImg: jsonpic,
     },
     {
+        id: 15,
+        title: "RESPONSIVE WEB DESIGN",
+        coverImg: responsive,
+    },
+    {
         id: 9,
         title: "JIRA",
         coverImg: jira,
     },
     {
         id: 10,
-        title: "ERP Optima",
+        title: "ERP OPTIMA",
         coverImg: erp,
     },
     {
@@ -74,27 +79,22 @@ export default [
     },
     {
         id: 12,
-        title: "English C1",
+        title: "ENGLISH C1",
         coverImg: english,
     },
     {
         id: 13,
-        title: "Communication Skills",
+        title: "COMMUNICATION",
         coverImg: communication,
     },
     {
         id: 14,
-        title: "Teamwork",
+        title: "TEAMWORK",
         coverImg: team,
     },
     {
-        id: 15,
-        title: "Responsive web design",
-        coverImg: responsive,
-    },
-    {
         id: 16,
-        title: "Time Management",
+        title: "TIME MANAGEMENT",
         coverImg: timemng,
     },
 
