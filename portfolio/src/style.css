@@ -58,7 +58,6 @@ nav * {
         left: 0;
         right: 0;
     font-size: 15px;
-    
 }
 
 .nav-left {
@@ -355,7 +354,7 @@ nav * {
         margin: 40px 30px 0px 30px;  
     }
     .skills-list {
-        width: 15%;
+        width: 12%;
         padding: 0;
         margin: 8px;
     }
@@ -363,7 +362,7 @@ nav * {
 
   @media (min-width: 1450px) {
     .projects-container {
-        margin-top: 100px;
+        margin-top: 60px;
     }
     .project {
         width: 12%;
