@@ -4,7 +4,6 @@ import cloud from "../images/cloud.png"
 
 const generateLinkClass = ({isActive}) => 
 isActive ? "nav-link-active nav-link" : "nav-link"
-      
 
 export default function Navbar() {
     return(

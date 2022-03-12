@@ -317,6 +317,7 @@ nav * {
     .nav-link:focus-within {
         background-color: #3E3C3C;
         color: black;
+        text-decoration:overline;
     }
 
     .gitlogo {

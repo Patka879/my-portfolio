@@ -2,6 +2,10 @@ import data from "../data"
 
 export default function Projects() {
 
+    window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+      }
+
     return (
         <div className="projects-container">
             {data.map(item => {
