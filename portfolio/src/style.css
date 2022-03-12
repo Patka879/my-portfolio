@@ -40,7 +40,7 @@ nav {
     align-items: center;
     margin-bottom: 20px;
     box-shadow: 0px 3px 7px -2px rgba(0, 0, 0, 0.4); 
-    padding: 15px 25px;
+    padding: 15px 10px;
     z-index: 1000;
 }
 
@@ -57,12 +57,13 @@ nav * {
         bottom: 0;
         left: 0;
         right: 0;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .nav-left {
     display: flex;   
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 200;
 }
 
 .nav-logo {
@@ -89,7 +90,7 @@ nav * {
 
 .nav-right {
     display: flex;
-    font-size: 16px;
+    font-size: 20px;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -99,7 +100,6 @@ nav * {
 .nav-right:hover {
     color: black;
 }
-
 
 .gitlogo {
     height: 35px;
@@ -112,11 +112,10 @@ nav * {
     text-decoration: none;
     color: #ebebde;
     padding: 10px;
-    
 }
 
 .nav-link {
-    border-right: 1px solid #ebebde;
+    border-right: 1px solid #A67F78;
     height: 100%;
     flex: 1;
     justify-content: center;
@@ -133,10 +132,17 @@ nav * {
 }
 
 
+.nav-link:focus-within {
+    background-color: #ebebde;
+    border-top: 1px solid #3E3C3C;
+    color:#3E3C3C;
+    font-weight: 600;
+}
+
 .projects-container {
     display: flex;
     flex-wrap: wrap;
-    margin: 150px 0px;
+    margin: 130px 0px;
     justify-content: space-around;
 }
 
@@ -149,14 +155,13 @@ nav * {
 .project {
     display: flex;          
     flex-direction: column; 
-    margin: 30px 20px 20px 20px;
     padding: 30px 10px;
     font-weight: 500;
     text-decoration: none;
     color: black;
     text-align: center;
     align-items: center;
-    width: 35%;
+    width: 150px;
     font-size: 24px;  
     animation-name: fadein;
     animation-duration: 0.75s;
@@ -175,7 +180,7 @@ nav * {
 }
 
 .project--icon {
-    margin-bottom: 20px;
+    margin-bottom: 17px;
     width: 50%;
     margin-top: 10px;
 }
@@ -199,8 +204,9 @@ nav * {
     display: flex;
     flex-direction: column; 
     align-items: center;
+    justify-content: space-between;
     width: 40%;
-    padding: 15px 0px 0px 0px;
+    padding: 35px 0px 25px 0px;
     margin: 10px;
     animation-name: fadein;
     animation-duration: 0.75s;
@@ -214,13 +220,12 @@ nav * {
 }
 
 .skill--icon {
-    width: 50%;
-    margin-top: 30px;
+    width: 70px;
 }
 
 .skill--title {
     text-align: center;
-    font-size: 24px;
+    font-size: 19px;
 }
 
 
@@ -235,7 +240,11 @@ nav * {
         font-size: 25px;
     }
     .nav-right {
-        font-size: 18px;
+        font-size: 25px;
+    }
+    .project {
+        width: 30%;
+        margin: 25px 15px;
     }
     .project--title {
         font-size: 30px;
@@ -263,7 +272,6 @@ nav * {
     }
     .app-container {
         border-radius: 25px;
-
     }
     nav {
         top: 60px;
@@ -288,7 +296,6 @@ nav * {
         font-size: 20px;
         padding: 15px 25px;
         justify-content: space-between;
-    
     }
     .nav-right {
         font-size: 22px;
@@ -302,6 +309,16 @@ nav * {
         padding: 10px;
         border: none;
     }
+
+    .nav-link:hover {
+        background-color: #3E3C3C;
+    }
+
+    .nav-link:focus-within {
+        background-color: #3E3C3C;
+        color: black;
+    }
+
     .gitlogo {
         height: 30px;
     }
@@ -313,19 +330,19 @@ nav * {
     .project {
         width: 30%;
         font-size: 25px; 
-        padding: 0px;
+        padding: 20px 0px;
     }
     .project--title {
         padding-bottom: 20px;
     }
     .project-description {
-        font-size: 15px;
+        font-size: 24px;
     }
     .project--icon {
         padding-bottom: 20px;
     }
     .skills-container {
-        margin: 100px 30px 0px 0px;  
+        margin: 100px 30px 20px 30px;  
     }
     .skills-list {
         width: 25%;  
@@ -343,6 +360,7 @@ nav * {
 
   @media (min-width: 1260px) {
     .projects-container {
+        margin-top: 120px;
         margin-bottom: 0px;
     }
     .project {
@@ -350,12 +368,15 @@ nav * {
         padding: 20px;
     }
     .skills-container {
-        margin: 180px 30px 0px 0px;  
+        margin: 140px 30px 0px 0px;  
     }
     .skills-list {
-        width: 12%;
+        width: 13%;
         padding: 0;
-        margin: 8px;
+        margin: 8px;   
+    }
+    .skill--title {
+        font-size: 20px
     }
   }
 
@@ -367,8 +388,14 @@ nav * {
         width: 12%;
         padding: 20px;
     }
+    .project-description {
+        font-size: 24px;
+    }
+    .skills-container {
+        margin-top: 110px;
+    }
     .skills-list {
-        width: 10%;
+        width: 15%;
         padding: 0;
         margin: 8px;
     }

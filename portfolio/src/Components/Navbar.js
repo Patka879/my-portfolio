@@ -11,7 +11,7 @@ export default function Navbar() {
         <nav>
              <div className="nav-left">
                 <a className="nav-logo" href="https://www.linkedin.com/in/patrycja-mysiak-20a46099/" target="_blank">
-                    <img src={cloud} alt="logo img" className="nav-logo-icon" /><span className="nav-left-name">Patrycja Mysiak</span>
+                    <img src={cloud} alt="logo img" className="nav-logo-icon" /><span className="nav-left-name">PATRYCJA MYSIAK</span>
                 </a>
             </div>
             <div className="nav-center">
