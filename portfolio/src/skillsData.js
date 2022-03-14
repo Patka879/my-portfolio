@@ -1,4 +1,4 @@
-import html from "./images/html.svg"
+import {HTMLIcon} from "./images/index.js"
 import css from "./images/css.svg"
 import javascriptpic from "./images/javascriptpic.svg"
 import reactpic from "./images/react.svg"
@@ -20,7 +20,7 @@ export default [
     {
         id: 1,
         title: "HTML",
-        coverImg: html,
+        coverImg: HTMLIcon,
     },
     {
         id: 2,

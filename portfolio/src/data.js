@@ -46,7 +46,7 @@ export default [
         id: 7,
         title: "TELEPHONE CHECK",
         coverImg: phone,
-        description: "CHECKS WHETHER PHONE NUMBER IS IN CORRECT IN AMERICAN PHONE NUMBER FORMAT",
+        description: "CHECKS WHETHER PHONE NUMBER IS IN CORRECT AMERICAN PHONE NUMBER FORMAT",
         link: "https://github.com/Patka879/exercises/tree/cash_register/telephoneCheck",
     }
 

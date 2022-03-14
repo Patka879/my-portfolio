@@ -1,15 +1,14 @@
 import data from "../skillsData"
 
 export default function Skills() {
-
     return (
         <div className="skills-container">
-            {data.map(item => {
+            {data.slice(0, 1).map(item => {
+                const Image = item.coverImg
                 return (  
                     <span className="skills-list" key={item.id}>
-                        <img className="skill--icon" alt="skill icon"src={item.coverImg} />
-                        <p className="skill--title">{item.title}
-                        </p>
+                        <Image />
+                        <p className="skill--title">{item.title}</p>
                     </span>    
                 )
             })}

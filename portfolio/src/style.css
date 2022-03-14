@@ -1,7 +1,6 @@
 body {
     width: 100vw;
-    height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
+    height: 100vh; 
 }
 
 #root {
@@ -20,9 +19,7 @@ body {
     flex-direction: column;
     flex: 1;
     background-color: #A67F78;
-    height: 100%;
     width: 100%;
-    overflow-y: scroll;
 }
 
 ::-webkit-scrollbar {
@@ -178,6 +175,8 @@ nav * {
 
 .project--title {
     padding-bottom: 7px;
+    height: 48px;
+    margin-bottom: 40px;
 }
 
 .project--icon {
@@ -215,9 +214,13 @@ nav * {
 }
 
 .skills-list:hover {
-    filter: invert(100%) sepia(30%) saturate(100%) hue-rotate(5deg) brightness(100%) contrast(100%);
+    
     box-shadow: 0px 2.98256px 7.4564px rgba(255, 255, 255, 0.698);
     border-radius: 25px;
+}
+
+.skills-list:hover path {
+    fill:red;
 }
 
 
@@ -264,11 +267,7 @@ nav * {
 } 
 
  @media (min-width: 910px) {
-    body {
-        width: 100vw;
-        height: 100vh;
-        overflow: hidden;
-    }
+    
     #root {
         padding: 60px 50px 60px 50px;
     }
