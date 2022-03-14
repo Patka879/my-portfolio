@@ -14,6 +14,10 @@ export default function Navbar() {
                 </a>
             </div>
             <div className="nav-center">
+            <NavLink 
+                    to="projects" 
+                    className={generateLinkClass}
+                    >PROJECTS</NavLink>
                 <NavLink 
                     to="experience" 
                     className={generateLinkClass}
@@ -22,10 +26,6 @@ export default function Navbar() {
                     to="skills" 
                     className={generateLinkClass}
                 >SKILLS</NavLink>
-                <NavLink 
-                    to="projects" 
-                    className={generateLinkClass}
-                    >PROJECTS</NavLink>
             </div>
             <div className="nav-right">
                 <a className="github-link" href="https://github.com/Patka879" target="_blank" rel="noreferrer"> 
