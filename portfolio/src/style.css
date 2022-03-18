@@ -197,7 +197,7 @@ nav * {
 }
 
 .experience-container {
-    margin: 120px 10px;
+    margin: 110px 10px 30px 10px;
 }
 
 ul {
@@ -385,7 +385,8 @@ li:hover {
         height: 150px;
     }
     .experience-container {
-        margin-top: 100px;
+        margin-top: 65px;
+        margin-bottom: 65px;
     }
     .project--icon {
         width: 110px;
