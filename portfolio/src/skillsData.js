@@ -1,19 +1,4 @@
-import {HTMLIcon} from "./images/index.js"
-import css from "./images/css.svg"
-import javascriptpic from "./images/javascriptpic.svg"
-import reactpic from "./images/react.svg"
-import nodepic from "./images/node.svg"
-import typescriptpic from "./images/typescript.svg"
-import gitpic from "./images/git.svg"
-import english from "./images/english.svg"
-import communication from "./images/communication.svg"
-import team from "./images/team.svg"
-import erp from "./images/ERP.svg"
-import sap from "./images/sap.svg"
-import responsive from "./images/responsive.svg"
-import jira from "./images/jira.svg"
-import jsonpic from "./images/json.svg"
-import timemng from "./images/timemng.svg"
+import {HTMLIcon, CSSIcon, JavaScriptIcon, ReactIcon, NodeIcon, TypeScriptIcon, GitIcon, English, Communication, Team, ERPIcon,SAPIcon, Responsive, Jira, JSONIcon, Timemng} from "./images/index.js"
 
 
 export default [
@@ -25,77 +10,77 @@ export default [
     {
         id: 2,
         title: "CSS",
-        coverImg: css
+        coverImg: CSSIcon,
     },
     {
         id: 3,
         title: "JAVA SCRIPT",
-        coverImg: javascriptpic,
+        coverImg: JavaScriptIcon,
     },
     {
         id: 4,
         title: "REACT",
-        coverImg: reactpic,
+        coverImg: ReactIcon,
     },
     {
         id: 5,
         title: "NODE.JS",
-        coverImg: nodepic,
+        coverImg: NodeIcon,
     },
     {
         id: 6,
         title: "TYPE SCRIPT",
-        coverImg: typescriptpic,
+        coverImg: TypeScriptIcon,
     },
     {
         id: 7,
         title: "GIT",
-        coverImg: gitpic,
+        coverImg: GitIcon,
     },
     {
         id: 8,
         title: "JSON",
-        coverImg: jsonpic,
+        coverImg: JSONIcon,
     },
     {
         id: 15,
         title: "RESPONSIVE WEB DESIGN",
-        coverImg: responsive,
+        coverImg: Responsive,
     },
     {
         id: 9,
         title: "JIRA",
-        coverImg: jira,
+        coverImg: Jira,
     },
     {
         id: 10,
         title: "ERP OPTIMA",
-        coverImg: erp,
+        coverImg: ERPIcon,
     },
     {
         id: 11,
         title: "SAP",
-        coverImg: sap,
+        coverImg: SAPIcon,
     },
     {
         id: 12,
         title: "ENGLISH C1",
-        coverImg: english,
+        coverImg: English,
     },
     {
         id: 13,
         title: "COMMUNICATION",
-        coverImg: communication,
+        coverImg: Communication,
     },
     {
         id: 14,
         title: "TEAMWORK",
-        coverImg: team,
+        coverImg: Team,
     },
     {
         id: 16,
         title: "TIME MANAGEMENT",
-        coverImg: timemng,
+        coverImg: Timemng,
     },
 
 ]

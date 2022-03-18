@@ -1,9 +1,13 @@
 export default function Experience() {
     return (
-        <ul>
-            <li>Experience 1</li>
-            <li>Ecperience 2</li>
-            <li>Experience 3</li>
+    <div className="experience-container">
+        <ul>FREELANCE DEVELOPER
+            <li>CREATING REACT COMPONENTS, DUMB COMPONENTS AND USING HOOKS</li>
+            <li>BUILDING WEBSITES FROM SCRATCH, USING THE SEMANTIC ELEMENTS AND THE "MOBILE FIRST" APPROACH</li>
+            <li>TROUBLESHOOTING PROBLEMS WITH JAVA SCRIPT LOGIC AND REFINING PIXEL PERFECT STYLES</li>
+            <li>WRITING UNIT TESTS (JEST) </li>
+            <li>CREATING ANIMATIONS USING CSS ANIMATIONS AND KEYFRAMES</li>
         </ul>
+    </div>
     )
 }

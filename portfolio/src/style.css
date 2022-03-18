@@ -75,9 +75,10 @@ nav * {
 }
 
 .nav-logo-icon {
-    margin: 10px;
-    width: 35px;
-    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(11deg) brightness(105%) contrast(100%);
+    width: 30px;
+    height: auto;
+    fill:#ebebde;
+    margin-right: 5px;
 }
 
 @keyframes floating {
@@ -100,11 +101,13 @@ nav * {
 }
 
 .gitlogo {
-    height: 35px;
-    margin: 3px;
+    width: 35px;
+    height: auto;
+    fill: black;
+    margin-right: 5px;
 }
 
-.nav-link, .github-link {
+.nav-link, .github-link, .nav-link-active {
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -112,25 +115,26 @@ nav * {
     padding: 10px;
 }
 
-.nav-link {
+.nav-link, .nav-link-active {
     border-right: 1px solid #A67F78;
     height: 100%;
     flex: 1;
     justify-content: center;
-    
 }
 
-.nav-link:last-child {
+.nav-link:last-child, .nav-link-active:last-child {
     border-right: none;
 }
 
-
-.nav-link:hover, .github-link:hover {
+.nav-link:hover, .nav-link-active {
     color: black;
 }
 
+.github--text:hover {
+    color: black;
+}
 
-.nav-link:focus-within {
+.nav-link-active {
     background-color: #ebebde;
     border-top: 1px solid #3E3C3C;
     color:#3E3C3C;
@@ -140,7 +144,7 @@ nav * {
 .projects-container {
     display: flex;
     flex-wrap: wrap;
-    margin: 130px 0px;
+    margin: 120px 0px;
     justify-content: space-around;
 }
 
@@ -152,7 +156,7 @@ nav * {
 
 .project {
     display: flex;          
-    flex-direction: column; 
+    flex-direction: column;
     padding: 30px 10px;
     font-weight: 500;
     text-decoration: none;
@@ -180,11 +184,11 @@ nav * {
 }
 
 .project--icon {
-    margin-bottom: 17px;
-    width: 50%;
+    margin-bottom: 30px;
+    width: 100px;
+    height: auto;
     margin-top: 10px;
 }
-
 
 .project-description {
     font-size: 12px;
@@ -192,12 +196,35 @@ nav * {
     line-height: 25px
 }
 
+.experience-container {
+    margin: 120px 10px;
+}
+
+ul {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    padding-inline-start: 10px;
+}
+
+li { 
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    margin: 20px;
+}
+
+li:hover {
+    color:#ebebde;
+}
+
 .skills-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 150px 0px 150px 0px;
+    margin: 130px 0px 150px 0px;
 }
 
 .skills-list {
@@ -214,18 +241,17 @@ nav * {
 }
 
 .skills-list:hover {
-    
-    box-shadow: 0px 2.98256px 7.4564px rgba(255, 255, 255, 0.698);
+    box-shadow: 0px 2.98256px 7.4564px rgba(225, 220, 217);
     border-radius: 25px;
 }
 
-.skills-list:hover path {
-    fill:red;
+.skills-list:hover svg {
+    fill:#E1DCD9;
 }
 
-
 .skill--icon {
-    width: 70px;
+    width: 65px;
+    height: auto;
 }
 
 .skill--title {
@@ -244,8 +270,14 @@ nav * {
     .nav-left {    
         font-size: 25px;
     }
+    .nav-logo-icon {
+        width: 35px;
+    }
     .nav-right {
         font-size: 25px;
+    }
+    .gitlogo {
+        width: 40px;
     }
     .project {
         width: 30%;
@@ -253,9 +285,20 @@ nav * {
     }
     .project--title {
         font-size: 30px;
+        margin-bottom: 10px;
     }
     .project-description {
         font-size: 20px;
+    }
+    .experience-container {
+        margin: 150px 40px 0px 40px;
+    }
+    ul {
+        font-size: 30px;
+    }
+    li {
+        font-size: 22px;
+        margin: 30px;
     }
     .skill--icon {
         width: 40%;
@@ -267,7 +310,10 @@ nav * {
 } 
 
  @media (min-width: 910px) {
-    
+    body {
+        width: 100vw;
+        height: 100%; 
+    }
     #root {
         padding: 60px 50px 60px 50px;
     }
@@ -275,9 +321,7 @@ nav * {
         border-radius: 25px;
     }
     nav {
-        top: 60px;
-        left: 50px;
-        right: 50px;
+        position:static;
         padding: 10px 30px 10px 30px;
         border-radius: 25px 25px 0px 0px;
         margin: 0;
@@ -286,8 +330,7 @@ nav * {
         font-size: 20px;
     }
     .nav-logo-icon {
-        width: 30px;
-        margin: 5px;
+        width: 40px;
     }
     .nav-center {
         position: static;
@@ -301,7 +344,7 @@ nav * {
     .nav-right {
         font-size: 22px;
     }
-    .nav-link, .github-link {
+    .nav-link, .github-link, .nav-link-active {
         display: flex;
         align-items: center;
         margin: 0 20px;
@@ -310,98 +353,131 @@ nav * {
         padding: 10px;
         border: none;
     }
-
     .nav-link:hover {
         background-color: #3E3C3C;
     }
-
-    .nav-link:focus-within {
+    .nav-link-active {
         background-color: #3E3C3C;
-        color: black;
         text-decoration:overline;
     }
-
     .gitlogo {
-        height: 30px;
+        width: 40px;
     }
     .projects-container {
-        margin-top: 200px;
+        margin-top: 100px;
         justify-content: space-around;
         flex-wrap: wrap;
     }
     .project {
-        width: 30%;
+        width: 28%;
         font-size: 25px; 
         padding: 20px 0px;
     }
     .project--title {
-        padding-bottom: 20px;
+        margin-bottom: 10px;
     }
     .project-description {
-        font-size: 24px;
+        font-size: 22px;
+        height: 150px;
+    }
+    .experience-container {
+        margin-top: 100px;
     }
     .project--icon {
-        padding-bottom: 20px;
+        width: 110px;
+        margin-bottom: 40px;
     }
     .skills-container {
-        margin: 100px 30px 20px 30px;  
+        margin: 70px 30px 20px 30px;  
     }
     .skills-list {
         width: 25%;  
         margin: 0px;
     }
     .skill--icon {
-        width: 40%;
+        width: 90px;
+        height: 100%;
         margin-top: 24px;
     }
     .skill--title {
-        font-size: 22px; 
+        font-size: 24px; 
     }
   } 
 
 
   @media (min-width: 1260px) {
+    body {
+        height: 100vh;
+    }
     .projects-container {
-        margin-top: 120px;
+        margin-top: 60px;
         margin-bottom: 0px;
     }
     .project {
-        width: 20%;
+        width: 12%;
         padding: 20px;
     }
+    .project--title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .project--icon {
+        width: 60px;
+    }
+    .project-description {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .experience-container {
+        margin-top: 60px;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
     .skills-container {
-        margin: 110px 30px 0px 0px;  
+        margin: 20px 30px 0px 0px;  
     }
     .skills-list {
-        width: 12%;
+        width: 14%;
         padding: 0;
         margin: 8px;   
     }
+    .skill--icon {
+        width: 55px;
+    }
     .skill--title {
-        font-size: 20px
+        font-size: 18px
     }
   }
 
   @media (min-width: 1450px) {
     .projects-container {
-        margin-top: 120px;
+        margin-top: 40px;
     }
     .project {
         width: 12%;
-        padding: 20px;
+    }
+    .project--title {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .project--icon {
+        width: 90px;
     }
     .project-description {
-        font-size: 20px;
+        font-size: 18px;
+    }
+    li {
+        text-align: justify;
     }
     .skills-container {
-        margin-top: 100px;
+        margin-top: 40px;
     }
     .skills-list {
         padding: 0;
         margin: 8px;
     }
-    .skills--icon {
-        width: 35%
+    .skill--icon {
+        width: 65px;
     }
   }
 
