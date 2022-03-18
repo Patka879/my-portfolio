@@ -201,18 +201,21 @@ nav * {
 }
 
 ul {
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 600;
     text-align: center;
     margin-top: 10px;
     padding-inline-start: 10px;
+    animation-name: fadein;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;  
 }
 
 li { 
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     text-align: justify;
-    margin: 20px;
+    margin: 25px;
 }
 
 li:hover {

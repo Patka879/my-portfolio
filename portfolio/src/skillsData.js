@@ -69,7 +69,7 @@ export default [
     },
     {
         id: 13,
-        title: "COMMUNICATION",
+        title: "COMMUNICATION SKILLS",
         coverImg: Communication,
     },
     {
