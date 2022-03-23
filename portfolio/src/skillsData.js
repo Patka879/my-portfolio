@@ -14,7 +14,7 @@ export default [
     },
     {
         id: 3,
-        title: "JAVA SCRIPT",
+        title: "JAVASCRIPT",
         coverImg: JavaScriptIcon,
     },
     {
@@ -26,11 +26,6 @@ export default [
         id: 5,
         title: "NODE.JS",
         coverImg: NodeIcon,
-    },
-    {
-        id: 6,
-        title: "TYPE SCRIPT",
-        coverImg: TypeScriptIcon,
     },
     {
         id: 7,
