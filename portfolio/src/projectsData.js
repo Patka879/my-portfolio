@@ -1,4 +1,4 @@
-import {Stopwatch, Exclam, Calculator, Palindrome, Cash, Phone} from "./images/index.js" 
+import {Stopwatch, Exclam, Calculator, Palindrome, Cash, Phone, Dragon, Portfolio} from "./images/index.js" 
 
 
 export default [
@@ -43,6 +43,20 @@ export default [
         coverImg: Phone,
         description: "CHECKS WHETHER PHONE NUMBER IS IN CORRECT AMERICAN PHONE NUMBER FORMAT",
         link: "https://github.com/Patka879/exercises/tree/cash_register/telephoneCheck",
+    },
+    {
+        id: 8,
+        title: "GoT API APP",
+        coverImg: Dragon,
+        description: "DATABASE OF CHARACTERS AND HOUSES FROM GAME OF THRONES",
+        link: "https://github.com/Patka879/GoT-API-app",
+    },
+    {
+        id: 9,
+        title: "THIS PAGE",
+        coverImg: Portfolio,
+        description: "PORTFOLIO PAGE CREATED IN REACT.JS",
+        link: "https://github.com/Patka879/my-portfolio",
     }
 
 
