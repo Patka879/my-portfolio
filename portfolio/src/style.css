@@ -9,7 +9,7 @@ body {
     flex: 1;
     height: 100%;
     width: 100%;
-    background-color: #E1DCD9;
+    background-color: #ebebde;
     font-family: 'Hubballi', cursive;
     padding: 0;
 }
@@ -18,7 +18,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
-    background-color: #A67F78;
+    background-color: #555454;
     width: 100%;
 }
 
@@ -32,7 +32,7 @@ nav {
         left: 0;
         right: 0;
     display: flex;
-    background-color: #3E3C3C;
+    background-color: #161616;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -45,12 +45,12 @@ nav {
 nav * {
     cursor: pointer;   
     text-decoration: none;
-    color: #ebebde;
+    
 }
 
 .nav-center {
     display: flex;
-    background-color: #3E3C3C;
+    background-color:#161616;
     position: fixed;
         bottom: 0;
         left: 0;
@@ -67,17 +67,18 @@ nav * {
 .nav-logo {
     display: flex;
     align-items: center;
+    fill:#ebebde;
+    color: #ebebde
 }
 
 .nav-logo:hover {
-    color: white;
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(11deg) brightness(10%) contrast(100%);
+    fill: #dd3434;
+    color: #dd3434;
 }
 
 .nav-logo-icon {
     width: 30px;
     height: auto;
-    fill:#ebebde;
     margin-right: 5px;
 }
 
@@ -96,14 +97,9 @@ nav * {
     animation-timing-function: ease-in-out;
 }
 
-.nav-right:hover {
-    color: black;
-}
-
 .gitlogo {
     width: 35px;
     height: auto;
-    fill: black;
     margin-right: 5px;
 }
 
@@ -112,11 +108,17 @@ nav * {
     align-items: center;
     text-decoration: none;
     color: #ebebde;
+    fill: #ebebde;
     padding: 10px;
 }
 
+.github-link:hover {
+    color: #dd3434;
+    fill: #dd3434;
+}
+
 .nav-link, .nav-link-active {
-    border-right: 1px solid #A67F78;
+    border-right: 1px solid #555454;
     height: 100%;
     flex: 1;
     justify-content: center;
@@ -130,14 +132,10 @@ nav * {
     color: black;
 }
 
-.github--text:hover {
-    color: black;
-}
-
 .nav-link-active {
     background-color: #ebebde;
-    border-top: 1px solid #3E3C3C;
-    color:#3E3C3C;
+    border-top: 1px solid #161616;
+    color:#161616;
     font-weight: 600;
 }
 
@@ -345,11 +343,14 @@ li:hover {
         font-size: 20px;
         padding: 15px 25px;
         justify-content: space-between;
+        background-image: none;
     }
+
     .nav-right {
         font-size: 22px;
     }
     .nav-link, .github-link, .nav-link-active {
+        background-color: transparent;
         display: flex;
         align-items: center;
         margin: 0 20px;
@@ -358,11 +359,15 @@ li:hover {
         padding: 10px;
         border: none;
     }
+    .nav-link-active {
+        color: #dd3434;
+    }
+
     .nav-link:hover {
-        background-color: #3E3C3C;
+        color: #dd3434;
     }
     .nav-link-active {
-        background-color: #3E3C3C;
+        background-color: #161616;
         text-decoration:overline;
     }
     .gitlogo {
@@ -377,10 +382,9 @@ li:hover {
         width: 28%;
         font-size: 24px; 
         padding: 20px 0px;
-        box-shadow: 0px 2.98256px 7.4564px #3E3C3C;
+        box-shadow: 0px 2.98256px 7.4564px black;
         border-radius: 25px;
     }
-    
     
     .project:hover {
         box-shadow: 0px 2.98256px 7.4564px rgba(255, 255, 255, 0.698);
