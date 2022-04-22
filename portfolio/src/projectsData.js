@@ -1,4 +1,4 @@
-import {Stopwatch, Exclam, Calculator, Palindrome, Cash, Phone, Dragon, Portfolio} from "./images/index.js" 
+import {Stopwatch, Exclam, Calculator, Meme,  Palindrome, Cash, Phone, Dragon, Portfolio, Dice} from "./images/index.js" 
 
 
 export default [
@@ -34,14 +34,14 @@ export default [
         id: 5,
         title: "CASH REGISTER",
         coverImg: Cash,
-        description: "CASH REGISTER DESIGNED TO RETURN CHANGE FROM  GIVEN  AMOUNT  OF  MONEY",
+        description: "RETURNS CHANGE FROM  GIVEN  AMOUNT  OF  MONEY",
         link: "https://github.com/Patka879/exercises/tree/cash_register/cashRegister",
     },
     {
         id: 7,
-        title: "TELEPHONE CHECK",
+        title: "PHONE CHECK",
         coverImg: Phone,
-        description: "CHECKS WHETHER PHONE NUMBER IS IN CORRECT AMERICAN PHONE NUMBER FORMAT",
+        description: "VALIDATES THE FORMAT OF PHONE NUMBER",
         link: "https://github.com/Patka879/exercises/tree/cash_register/telephoneCheck",
     },
     {
@@ -57,7 +57,20 @@ export default [
         coverImg: Portfolio,
         description: "PORTFOLIO PAGE CREATED IN REACT.JS",
         link: "https://github.com/Patka879/my-portfolio",
+    },
+    {
+        id: 10,
+        title: "TENZIES",
+        coverImg: Dice,
+        description: "SIMPLE DICE GAME",
+        link: "https://github.com/Patka879/react-small-projects/tree/master/tenzies",
+    },
+    {
+        id: 11,
+        title: "GENERATOR",
+        coverImg: Meme,
+        description: "MEME GENERATOR",
+        link: "https://github.com/Patka879/react-small-projects/tree/master/generator",
     }
-
 
 ]
