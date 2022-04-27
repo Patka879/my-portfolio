@@ -18,10 +18,10 @@ export default [
     },
     {
         id: 3,
-        title: "CALCULATOR",
+        title: "MONEY TRACKER",
         coverImg: Calculator,
-        description: "SIMPLE CALCULATOR FOR BASIC TASKS",
-        link: "https://github.com/Patka879/exercises/blob/master/calculator.js",
+        description: "EXPENSE TRACKING APPLICATION",
+        link: "https://github.com/Patka879/money-tracker-app",
     },
     {
         id: 4,
