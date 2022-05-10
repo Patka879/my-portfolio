@@ -27,7 +27,7 @@ export default [
         id: 4,
         title: "PALINDROME",
         coverImg: Palindrome,
-        description: "SIMPLE CALCULATOR FOR BASIC TASKS",
+        description: "CHECKS WHETHER THE GIVEN PHRASE IS A PALINDROME",
         link: "https://github.com/Patka879/exercises/blob/master/palindrome.js",
     },
     {
