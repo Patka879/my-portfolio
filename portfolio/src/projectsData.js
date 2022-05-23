@@ -63,14 +63,14 @@ export default [
         title: "TENZIES",
         coverImg: Dice,
         description: "SIMPLE DICE GAME",
-        link: "https://github.com/Patka879/react-small-projects/tree/master/tenzies",
+        link: "/tenzies",
     },
     {
         id: 11,
         title: "GENERATOR",
         coverImg: Meme,
         description: "MEME GENERATOR",
-        link: "https://github.com/Patka879/react-small-projects/tree/master/generator",
+        link: "/generator",
     }
 
 ]
