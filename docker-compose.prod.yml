@@ -11,3 +11,7 @@ services:
     container_name: generator-app
     image: generator-app
     build: ../react-small-projects/generator/
+  tenzies-app:
+    container_name: tenzies-app
+    image: tenzies-app
+    build: ../react-small-projects/tenzies/
