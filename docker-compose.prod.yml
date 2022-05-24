@@ -15,7 +15,7 @@ services:
     container_name: tenzies-app
     image: tenzies-app
     build: ../react-small-projects/tenzies/
-  money-app:
-    container_name: money-app
-    image: money-app
+  money-tracker-app:
+    container_name: money-tracker-app
+    image: money-tracker-app
     build: ../money-tracker-app/
