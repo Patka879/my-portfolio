@@ -4,32 +4,32 @@ import {HTMLIcon, CSSIcon, JavaScriptIcon, ReactIcon, NodeIcon, TypeScriptIcon, 
 export default [
     {
         id: 1,
-        title: "HTML",
+        title: "HTML5",
         coverImg: HTMLIcon,
     },
     {
         id: 2,
-        title: "CSS",
+        title: "CSS3",
         coverImg: CSSIcon,
     },
     {
         id: 3,
-        title: "JAVASCRIPT",
+        title: "JavaScript",
         coverImg: JavaScriptIcon,
     },
     {
         id: 4,
-        title: "REACT",
+        title: "React.js",
         coverImg: ReactIcon,
     },
     {
         id: 5,
-        title: "NODE.JS",
+        title: "Node.js",
         coverImg: NodeIcon,
     },
     {
         id: 7,
-        title: "GIT",
+        title: "Git",
         coverImg: GitIcon,
     },
     {
@@ -39,12 +39,12 @@ export default [
     },
     {
         id: 9,
-        title: "RESPONSIVE WEB DESIGN",
+        title: "Responsive web design",
         coverImg: Responsive,
     },
     {
         id: 10,
-        title: "DOCKER",
+        title: "Docker",
         coverImg: Docker,
     },
     {
@@ -54,7 +54,7 @@ export default [
     },
     {
         id: 12,
-        title: "ERP OPTIMA",
+        title: "ERP Optima",
         coverImg: ERPIcon,
     },
     {
@@ -64,22 +64,22 @@ export default [
     },
     {
         id: 14,
-        title: "ENGLISH C1",
+        title: "English C1",
         coverImg: English,
     },
     {
         id: 15,
-        title: "COMMUNICATION SKILLS",
+        title: "Communiation skills",
         coverImg: Communication,
     },
     {
         id: 16,
-        title: "TEAMWORK",
+        title: "Teamwork",
         coverImg: Team,
     },
     {
         id: 17,
-        title: "TIME MANAGEMENT",
+        title: "Time management",
         coverImg: Timemng,
     },
 

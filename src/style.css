@@ -9,8 +9,8 @@ body {
     flex: 1;
     height: 100%;
     width: 100%;
-    background-color: #ebebde;
-    font-family: 'Hubballi', cursive;
+    background-color: #cbd2d4;
+    font-family: 'Varela Round', sans-serif;
     padding: 0;
 }
 
@@ -18,7 +18,8 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
-    background-color: #9e9a9a;
+    background-image: url('./images/5570863.jpg');
+    background-size: contain;
     width: 100%;
 }
 
@@ -32,53 +33,38 @@ nav {
         left: 0;
         right: 0;
     display: flex;
-    background-color: #161616;
+    background-color: #2d2d2d;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
     box-shadow: 0px 3px 7px -2px rgba(0, 0, 0, 0.4); 
-    padding: 10px;
+    padding: 10px 30px;
     z-index: 1000;
 }
 
-nav * {
-    cursor: pointer;   
+nav * {  
     text-decoration: none;
+}
+
+.nav-left {
+    display: flex;   
+    font-size: 16px;
+    font-weight: 600;
+    color: whitesmoke;
+    cursor: default;
+    font-family: 'Pacifico', cursive;
 }
 
 .nav-center {
     display: flex;
-    background-color:#161616;
     position: fixed;
         bottom: 0;
         left: 0;
         right: 0;
     font-size: 20px;
-}
-
-.nav-left {
-    display: flex;   
-    font-size: 14px;
-    font-weight: 200;
-}
-
-.nav-logo {
-    display: flex;
-    align-items: center;
-    fill:#ebebde;
-    color: #ebebde
-}
-
-.nav-logo:hover {
-    fill: #dd3434;
-    color: #dd3434;
-}
-
-.nav-logo-icon {
-    width: 30px;
-    height: auto;
-    margin-right: 5px;
+    background-color: #2d2d2d;
+    color: whitesmoke;
 }
 
 @keyframes floating {
@@ -89,31 +75,28 @@ nav * {
 
 .nav-right {
     display: flex;
-    font-size: 16px;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
 
-.gitlogo {
-    width: 35px;
+.gitlogo, .linklogo {
+    width: 25px;
     height: auto;
-    margin-right: 5px;
 }
 
-.nav-link, .github-link, .nav-link-active {
+.gitlogo:hover, .linklogo:hover {
+    fill: rgb(28, 149, 190)
+}
+
+.nav-link, .github-link, .nav-link-active, .linkedin-link {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: #ebebde;
-    fill: #ebebde;
+    color: whitesmoke;
+    fill: whitesmoke;
     padding: 10px;
-}
-
-.github-link:hover {
-    color: #dd3434;
-    fill: #dd3434;
 }
 
 .nav-link, .nav-link-active {
@@ -127,12 +110,8 @@ nav * {
     border-right: none;
 }
 
-.nav-link:hover, .nav-link-active {
-    color: #dd3434;
-}
-
 .nav-link-active {
-    background-color: #ebebde;
+    background-color: white;
     border-top: 1px solid #161616;
     color:#161616;
     font-weight: 600;
@@ -145,7 +124,6 @@ nav * {
     justify-content: space-around;
 }
 
-
 @keyframes fadein {
    from {opacity: 0%;}
    to {opacity: 100%;}
@@ -154,70 +132,66 @@ nav * {
 .project {
     display: flex;          
     flex-direction: column;
-    padding: 30px 10px;
-    font-weight: 500;
+    padding: 10px 10px;
+    margin: 30px 0;
     text-decoration: none;
     color: black;
     text-align: center;
     align-items: center;
-    width: 150px;
-    font-size: 24px;  
+    width: 45%;  
     animation-name: fadein;
     animation-duration: 0.75s;
-    animation-timing-function: ease-in-out;  
-}
-
-
-.project:hover {
-    box-shadow: 0px 2.98256px 7.4564px rgba(255, 255, 255, 0.698);
-    fill:#E1DCD9;
-    color: #E1DCD9;
-    border-radius: 25px;
+    animation-timing-function: ease-in-out;   
 }
 
 .project--title {
     padding-bottom: 7px;
-    height: 48px;
+    height: 64px;
     margin-bottom: 30px;
+    font-size: 26px;
+    font-family: 'Open Sans', sans-serif; 
 }
 
 .project--icon {
-    margin-bottom: 30px;
-    width: 100px;
+    margin-bottom: 45px;
+    width: 80px;
     height: auto;
-    margin-top: 10px;
 }
 
 .project-description {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 550;
-    line-height: 25px
+    line-height: 25px;
+    height: 100px;
 }
 
 .experience-container {
-    margin: 110px 10px 30px 10px;
+    margin: 120px 10px 0 10px;
 }
 
 ul {
-    font-size: 26px;
-    font-weight: 600;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 32px;   
+    line-height: 60px; 
     text-align: center;
-    margin-top: 10px;
     padding-inline-start: 10px;
     animation-name: fadein;
     animation-duration: 0.75s;
-    animation-timing-function: ease-in-out;  
+    animation-timing-function: ease-in-out; 
+    margin: 0px;
 }
 
 li { 
-    font-size: 18px;
+    font-size: 14px;
+    line-height: 22px;
     font-weight: 400;
     text-align: justify;
     margin: 25px;
+    font-family: 'Varela Round', sans-serif;
 }
 
 li:hover {
-    color:#ebebde;
+    color: rgb(28, 149, 190);
 }
 
 .skills-container {
@@ -232,21 +206,13 @@ li:hover {
     display: flex;
     flex-direction: column; 
     align-items: center;
+    text-align: center;
     width: 40%;
     padding: 35px 0px 25px 0px;
     margin: 10px;
     animation-name: fadein;
     animation-duration: 0.75s;
     animation-timing-function: ease-in-out; 
-}
-
-.skills-list:hover {
-    box-shadow: 0px 2.98256px 7.4564px rgba(225, 220, 217);
-    border-radius: 25px;
-}
-
-.skills-list:hover svg {
-    fill:#E1DCD9;
 }
 
 .skill--icon {
@@ -258,7 +224,6 @@ li:hover {
 .skill--title {
     text-align: center;
     font-size: 18px;
-    
 }
 
 
@@ -270,40 +235,32 @@ li:hover {
         font-size: 25px;
     }
     .nav-left {    
-        font-size: 25px;
-    }
-    .nav-logo-icon {
-        width: 35px;
+        font-size: 14px;
     }
     .nav-right {
         font-size: 25px;
     }
-    .gitlogo {
-        width: 40px;
-    }
     .project {
-        width: 30%;
         margin: 25px 15px;
     }
     .project--title {
-        font-size: 30px;
-        margin-bottom: 30px;
+        font-size: 36px;
     }
     .project-description {
         font-size: 20px;
     }
     .experience-container {
-        margin: 150px 40px 0px 40px;
+        margin: 100px 40px 0px 40px;
     }
     ul {
-        font-size: 30px;
+        font-size: 36px;
     }
     li {
-        font-size: 22px;
+        font-size: 18px;
         margin: 30px;
     }
     .skill--icon {
-        width: 40%;
+        width: 30%;
         margin-top: 30px;
     }
     .skill--title {
@@ -320,32 +277,31 @@ li:hover {
         padding: 60px 50px 60px 50px;
     }
     .app-container {
-        border-radius: 25px;
+        border: none;
     }
     nav {
-        position:static;
-        padding: 10px 30px 10px 30px;
-        border-radius: 25px 25px 0px 0px;
+        position: static;
+        padding: 30px 50px;
         margin: 0;
+        background-color: transparent;
+        box-shadow: none;
     }
     .nav-left {
-        font-size: 20px;
-    }
-    .nav-logo-icon {
-        width: 40px;
+        font-size: 16px;
+        color: rgb(28, 149, 190)
     }
     .nav-center {
         position: static;
             top: auto;
             left: auto;
             right: auto;
-        font-size: 20px;
+        font-size: 18px;
         padding: 15px 25px;
         justify-content: space-between;
-        background-image: none;
+        background-color: transparent;
     }
     .nav-right {
-        font-size: 22px;
+        font-size: 14px;
     }
     .nav-link, .github-link, .nav-link-active {
         background-color: transparent;
@@ -353,94 +309,126 @@ li:hover {
         align-items: center;
         margin: 0 20px;
         text-decoration: none;
-        color: #ebebde;
+        color: black;
+        fill: black;
         padding: 10px;
         border: none;
     }
     .nav-link-active {
-        color: #dd3434;
+        font-size: larger;
+        text-decoration: overline;
     }
     .nav-link:hover {
-        color: #dd3434;
+        text-decoration: line-through;
     }
-    .nav-link-active {
-        background-color: #161616;
-        text-decoration:overline;
+    .nav-logo:hover {
+        text-decoration: line-through;
     }
-    .gitlogo {
-        width: 40px;
+    .gitlogo, .linklogo {
+        width: 30px;
+        fill: rgb(74, 74, 74);
+        color: rgb(74, 74, 74);
     }
     .projects-container {
-        margin-top: 70px;
-        margin-bottom: 70px;
+        margin: 70px 0 70px 0;
         justify-content: space-around;
         flex-wrap: wrap;
     }
     .project {
-        width: 28%;
-        font-size: 24px; 
+        width: 40%; 
         padding: 20px 0px;
-        box-shadow: 0px 2.98256px 7.4564px black;
-        border-radius: 25px;
+        outline: 1px solid transparent;
+        outline-offset: -40px;
+        transition: all 250ms cubic-bezier(0.2, 0, 0, 0.8);
+        background-color: rgba(255, 255, 255, 0.732);
     }
-    .project:hover {
-        box-shadow: 0px 2.98256px 7.4564px rgba(255, 255, 255, 0.698);
-        fill:#E1DCD9;
-        color: #E1DCD9;
+    .project:hover { 
+        color: rgb(28, 149, 190);
+        outline: 1px solid rgb(28, 149, 190);
+        outline-offset: 0px;
+        fill: rgb(28, 149, 190)
     }
     .project--title {
         margin-bottom: 15px;
+        font-size: 38px;
+        height: 76px;
+        font-weight: 700;
+    }
+    .project--icon {
+        width: 70px;
+        margin-bottom: 40px;
     }
     .project-description {
-        font-size: 20px;
+        font-size: 16px;
         height: 80px;
     }
     .experience-container {
-        margin-top: 65px;
-        margin-bottom: 65px;
+        margin: 70px 0;
     }
-    .project--icon {
-        width: 110px;
-        margin-bottom: 40px;
+    ul {
+        font-size: 38px;
+        font-weight: 700;
+    }
+    li {
+        font-size: 16px; 
+        line-height: 30px;  
     }
     .skills-container {
-        margin: 70px 30px 20px 30px;  
+        margin: 70px 30px 200px 30px;  
     }
     .skills-list {
-        width: 25%;  
-        margin: 0px;
+        width: 30%;  
+        margin: 10px;
+        outline: 1px solid transparent;
+        outline-offset: -40px;
+        transition: all 250ms cubic-bezier(0.2, 0, 0, 0.8);
+        background-color: rgba(255, 255, 255, 0.732);
+    }
+    .skills-list:hover {
+        color: rgb(28, 149, 190);
+        outline: 1px solid rgb(28, 149, 190);
+        outline-offset: 0px;
+        fill: rgb(28, 149, 190)
     }
     .skill--icon {
-        width: 90px;
+        width: 60px;
         height: 100%;
         margin-top: 24px;
     }
     .skill--title {
-        font-size: 24px; 
+        font-size: 22px; 
+        height: 44px;
+        
     }
   } 
 
 
   @media (min-width: 1260px) {
-    body {
-        height: 100vh;
+    nav {
+        padding: 30px 60px;
+    }
+    .nav-left {
+        font-size: 16px;
     }
     .projects-container {
-        margin-top: 10px;
-        margin-bottom: 0px;
+        margin-top: 40px;
     }
     .project {
-        width: 16%;
+        width: 26%;
         padding: 10px;
-        margin-bottom: 15px;
+        margin-bottom: 30px;
+    }
+    .project:hover { 
+        outline-offset: 15px;
     }
     .project--title {
-        font-size: 20px;
-        margin-bottom: 0px;
+        font-size: 38px;
+        height: 100px;
+        margin-bottom: 20px;   
     }
     .project--icon {
-        width: 60px;
-        margin-bottom: 15px;
+        width: 70px;
+        margin-bottom: 40px;
         margin-top: 5px;
     }
     .project-description {
@@ -448,15 +436,10 @@ li:hover {
         height: 65px;
     }
     .experience-container {
-        margin: 40px 150px 0px 150px;
+        margin: 40px 60px 200px 60px;
     }
     .skills-container {
-        margin: 20px 30px 0px 0px;  
-    }
-    .skills-list {
-        width: 14%;
-        padding: 0;
-        margin: 8px;   
+        margin-top: 40px;
     }
     .skill--icon {
         width: 55px;
@@ -466,140 +449,94 @@ li:hover {
     }
   }
 
-  @media (min-width: 1360px) {
-      body {
-          height: 100vh
-      }
-  }
-
   @media (min-width: 1450px) {
     .nav-left {
-        font-size: 18px;
+        font-size: 20px;
     }
-    .projects-container {
-        margin: 20px 0 0 0;
-    }
-    .project {
-        width: 16%;
-        margin: 0 10px 26px 0;
+    .projet {
+        outline-offset: 20px;
     }
     .project--title {
-        font-size: 22px;
-    }
-    .project--icon {
-        width: 46px;
-        margin-bottom: 16px;
+        font-size: 38px;
     }
     .project-description {
-        font-size: 14px;
+        font-size: 18px;
     }
     li {
-        text-align: justify;
-    }
-    .skills-container {
-        margin-top: 10px;
-    }
-    .experience-container {
-        margin-top: 20px;
-    }
-    ul {
-        font-size: 28px;
-    }
-    li {
-        font-size: 22px;
-    }
-    .skills-list {
-        padding: 0;
-        margin: 8px;
-        width: 12%;
+        font-size: 20px;
     }
     .skill--icon {
-        width: 45px;
+        width: 70px;
     }
+    .skill--title {
+        font-size: 20px;
+    }
+    
   }
 
   @media (min-width: 1600px) {
-      .project {
-          margin: 20px 10px;
+      .projects-container, .skills-container, .experience-container {
+          margin-top: 100px;
       }
-      .skill--icon {
-          width: 60px;
+      .nav-center {
+          font-size: 22px;
+      }
+      .nav-left {
+          font-size: 22px;
+      }
+      .project--title {
+          font-size: 42px;
+      }
+      .project-description {
+          font-size: 22px;
+          line-height: 36px;
+      }
+      ul {
+          font-size: 42px;
+      }
+      li {
+          font-size: 24px;
+          line-height: 48px;
+      }
+      .skill--title {
+          font-size: 24px;
       }
   }
 
   @media (min-width: 1770px) {
+    .projects-container, .skills-container, .experience-container {
+        margin-top: 140px;
+    }
+    .nav-left {
+        font-size: 30px;
+    }
     .nav-center { 
         font-size: 24px;
     }
-    .nav-left {
-        font-size: 20px;
-    }
-    .nav-right{
-        font-size: 20px;
-    }
-    .projects-container {
-        margin-top: 20px;
-    }
-    .project {
-        margin-bottom: 30px;
-    }
     .project--title {
-        font-size: 28px;
-    }
-    .project--icon {
-        width: 65px;
-        margin-bottom: 25px;
-    }
-    .project-description {
-        font-size: 18px;
-        height: 80px;
-    }
-    .experience-container {
-        margin-top: 60px;
+        font-size: 52px;
     }
     ul {
-        font-size: 34px;
+        font-size: 52px;
     }
     li {
-        font-size: 24px;
-    }
-    .skills-container {
-        margin-top: 24px;
-    }
-    .skill--title { 
-        font-size: 22px;
+        height: 60px;
     }
   }
 
   @media (min-width: 2000px) {
-    .nav-center { 
-        font-size: 26px;
-    }
-    .nav-left {
-        font-size: 22px;
-    }
-    .nav-logo-icon {
-        width: 38px;
-    }
-    .nav-right{
-        font-size: 22px;
-    }
-    .projects-container {
-        margin-top: 40px;
+    nav {
+        padding: 30px 70px;
     }
     .project {
-        width: 17%
+        margin-bottom: 70px;
     }
-    .project--title { 
-        font-size: 32px;
-        margin-bottom: 10px;
-    }
-    .project--icon {
-        width: 70px;
+    .project--title {
         margin-bottom: 40px;
     }
-    .project-description {
-        font-size: 20px;
+    .project--icon {
+        width: 90px;
+        margin-bottom: 80px;
     }
     .skills-container {
         margin-top: 50px;
@@ -608,7 +545,7 @@ li:hover {
         width: 74px;
     }
     .experience-container {
-        margin: 90px 150px 0px 150px;
+        margin: 90px 150px;
     }
     ul {
         font-size: 40px;
@@ -619,24 +556,136 @@ li:hover {
   }
 
   @media (min-width: 2130px) {
-      .projects-container {
-          margin-top: 50px;
+      .nav-center {
+          font-size: 28px;
       }
-      .project {
-          margin-bottom: 50px;
-      }
-      .project-title {
-          font-size: 34px;
+      .project-description {
+          font-size: 28px;
       }
       .skill--icon {
           width: 80px;
       }
+      .skill--title {
+          font-size: 30px;
+      }
+  }
+
+  @media (min-width: 2400px) {
+    nav {
+        padding: 30px 100px;
+    }
+    .nav-link, .nav-link-active {
+        margin-right: 80spx;
+    }
+    .projects-container, .skills-container {
+        margin: 180px 0px 180px 0;
+    }
+    .experience-container {
+        margin-top: 180px;
+        margin-bottom: 180px
+    }
+  }
+
+  @media (min-width: 3200px) {
+      nav {
+          padding: 100px 160px;
+      }
+      .nav-link, .nav-link-active {
+        margin-right: 100px;
+    }
+      .nav-center {
+          font-size: 50px;
+      }
+      .nav-left {
+          font-size: 34px;
+      }
+      .gitlogo, .linklogo {
+          width: 60px;
+      }
+      .project {
+          margin-bottom: 200px;
+      }
+      .project:hover {
+        outline-offset: 80px;
+      }
+      .project--title {
+          font-size: 100px;
+          height: 200px;
+      }
+      .project--icon {
+          width: 120px;
+          margin-bottom: 160px;
+      }
       .project-description {
-          font-size: 24px;
+        font-size: 50px;
+        line-height: 80px;
+        height: 100px;
       }
-      .skills-container {
-          margin-top: 70px;
+      ul {
+        font-size: 100px;
+        line-height: 160px;
       }
+      li {
+        font-size: 60px;
+        line-height: 90px;
+        height: 200px;
+      }
+      .skills-list {
+          margin-bottom: 100px;
+      }
+      .skill--icon {
+          width: 150px;
+      }
+      .skill--title {
+          font-size: 50px;
+      }
+  }
+
+  @media (min-width: 4800px) {
+    .nav-left {
+        font-size: 60px;
+    }
+    .nav-center {
+        font-size: 60px;
+    }
+    .nav-link, .nav-link-active {
+        margin-right: 120px;
+    }
+    .projects-container, .skills-container, .experience-container {
+        margin-top: 360px;
+    }
+    .gitlogo, .linklogo {
+        width: 80px;
+    }
+    .project--title {
+        font-size: 120px;
+        height: 240px;
+    }
+    .project--icon {
+        width: 200px;
+        margin-bottom: 160px;
+    }
+    .project-description {
+        font-size: 60px;
+        line-height: 100px;
+        height: 200px;
+    }
+    .experience-container {
+        margin-left: 300px;
+    }
+    ul {
+        font-size: 120px;
+        line-height: 260px;
+    }
+    li {
+      font-size: 60px;
+      line-height: 90px;
+      height: 200px;
+    }
+    .skill--title {
+        font-size: 60px;
+    }
+
   }
 
   
