@@ -28,7 +28,7 @@ export default [
         title: "GoT API App",
         coverImg: Dragon,
         description: "Database of characters and houses from Game of Thrones",
-        link: "/GoT-API-app",
+        link: "/got-api-app",
     },
     {
         id: 9,
