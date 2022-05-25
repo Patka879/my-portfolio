@@ -18,5 +18,5 @@ services:
   got-api-app:
     container_name: got-api-app
     image: got-api-app
-    build: ../GoT-API-app
+    build: ../got-api-app
   
