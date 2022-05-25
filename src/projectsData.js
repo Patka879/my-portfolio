@@ -21,7 +21,7 @@ export default [
         title: "Money Tracker",
         coverImg: Calculator,
         description: "Expense tracking application",
-        link: "/money-tracker-app",
+        link: "/https://github.com/Patka879/money-tracker-app",
     },
     {
         id: 8,
