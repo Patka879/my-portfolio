@@ -15,8 +15,5 @@ services:
     container_name: tenzies-app
     image: tenzies-app
     build: ../react-small-projects/tenzies/
-  # got-api-app:
-    # container_name: got-api-app
-    # image: got-api-app
-    # build: ../got-api-app
+  
   
