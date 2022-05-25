@@ -21,14 +21,14 @@ export default [
         title: "Money Tracker",
         coverImg: Calculator,
         description: "Expense tracking application",
-        link: "/https://github.com/Patka879/money-tracker-app",
+        link: "https://github.com/Patka879/money-tracker-app",
     },
     {
         id: 8,
         title: "GoT API App",
         coverImg: Dragon,
         description: "Database of characters and houses from Game of Thrones",
-        link: "/https://github.com/Patka879/GoT-API-app",
+        link: "https://github.com/Patka879/GoT-API-app",
     },
     {
         id: 9,
