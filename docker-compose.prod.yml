@@ -15,5 +15,3 @@ services:
     container_name: tenzies-app
     image: tenzies-app
     build: ../react-small-projects/tenzies/
-  
-  
