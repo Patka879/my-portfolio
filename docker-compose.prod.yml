@@ -23,3 +23,7 @@ services:
     container_name: factorial-app
     image: factorial-app
     build: ../exercises/factorial/
+  palindrome-app:
+    container_name: palindrome-app
+    image: palindrome-app
+    build: ../exercises/palindrome/
