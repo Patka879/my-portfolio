@@ -49,7 +49,7 @@ export default [
         title: "Palindrome",
         coverImg: Palindrome,
         description: "Checks whether the given phrase is a palindrome",
-        link: "/palindrome.js/",
+        link: "/palindrome/",
     },
     {
         id: 5,
