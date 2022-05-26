@@ -42,7 +42,7 @@ export default [
         title: "Factorial",
         coverImg: Exclam,
         description: "Returns a factorial of a given number",
-        link: "https://github.com/Patka879/exercises/blob/master/factorial.js",
+        link: "/factorial",
     },
     {
         id: 4,

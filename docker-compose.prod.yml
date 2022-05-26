@@ -19,3 +19,7 @@ services:
     container_name: got-api-app
     image: got-api-app
     build: ../got-api-app/
+  factorial-app:
+    container_name: factorial-app
+    image: factorial-app
+    build: ../exercises/factorial
