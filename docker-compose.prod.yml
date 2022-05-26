@@ -22,4 +22,4 @@ services:
   factorial-app:
     container_name: factorial-app
     image: factorial-app
-    build: ../exercises/factorial
+    build: ../exercises/factorial/
