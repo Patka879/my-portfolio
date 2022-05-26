@@ -42,7 +42,7 @@ export default [
         title: "Factorial",
         coverImg: Exclam,
         description: "Returns a factorial of a given number",
-        link: "/factorial",
+        link: "/factorial/",
     },
     {
         id: 4,
