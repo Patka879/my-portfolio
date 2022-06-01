@@ -30,4 +30,4 @@ services:
   unit-converter-app:
     container_name: unit-converter-app
     image: unit-converter-app
-    build: ../exercises/unit_converter/
+    build: ../exercises/unit-converter/
