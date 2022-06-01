@@ -1,4 +1,4 @@
-import {Stopwatch, Exclam, Calculator, Meme,  Palindrome, Cash, Phone, Dragon, Portfolio, Dice} from "./images/index.js" 
+import {Stopwatch, Ruler, Exclam, Calculator, Meme,  Palindrome, Cash, Phone, Dragon, Portfolio, Dice} from "./images/index.js" 
 
 
 export default [
@@ -50,6 +50,13 @@ export default [
         coverImg: Palindrome,
         description: "Checks whether the given phrase is a palindrome",
         link: "/palindrome/",
+    },
+    {
+        id: 12,
+        title: "Unit Coverter",
+        coverImg: Ruler,
+        description: "Shows all of the coversions beetween Emperial/Metric in length, volume and mass. ",
+        link: "/unit-converter/",
     },
     {
         id: 5,

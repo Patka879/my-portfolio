@@ -27,3 +27,7 @@ services:
     container_name: palindrome-app
     image: palindrome-app
     build: ../exercises/palindrome/
+  unit-converter-app:
+    container_name: unit-converter-app
+    image: unit-converter-app
+    build: ../exercises/unit_converter/
