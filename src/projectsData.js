@@ -55,7 +55,7 @@ export default [
         id: 12,
         title: "Unit Coverter",
         coverImg: Ruler,
-        description: "Shows all of the coversions beetween Emperial/Metric in length, volume and mass. ",
+        description: "Converts beetween Imperial and Metric units",
         link: "/unit-converter/",
     },
     {
