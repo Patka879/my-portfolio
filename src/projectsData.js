@@ -63,7 +63,7 @@ export default [
         title: "Cash Register",
         coverImg: Cash,
         description: "Returns change from given amount of money",
-        link: "https://github.com/Patka879/exercises/tree/cash_register/cashRegister",
+        link: "/cash-register/",
     },
     {
         id: 7,

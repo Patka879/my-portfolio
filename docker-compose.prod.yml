@@ -31,3 +31,7 @@ services:
     container_name: unit-converter-app
     image: unit-converter-app
     build: ../exercises/unit-converter/
+  cash-register-app:
+    container_name: cash-register-app
+    image: cash-register-app
+    build: ../exercises/cash-register/
