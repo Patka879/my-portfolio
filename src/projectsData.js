@@ -70,7 +70,7 @@ export default [
         title: "Phone Check",
         coverImg: Phone,
         description: "Validates the format of phone number",
-        link: "/phoneCheck/",
+        link: "/phone-check/",
     },
     {
         id: 1,

@@ -35,7 +35,7 @@ services:
     container_name: cash-register-app
     image: cash-register-app
     build: ../exercises/cash-register/
-  phoneCheck-app:
-    container_name: phoneCheck-app
-    image: phoneCheck-app
-    build: ../exercises/phoneCheck/
+  phone-check-app:
+    container_name: phone-check-app
+    image: phone-check-app
+    build: ../exercises/phone-check/
