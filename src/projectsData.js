@@ -70,7 +70,7 @@ export default [
         title: "Phone Check",
         coverImg: Phone,
         description: "Validates the format of phone number",
-        link: "https://github.com/Patka879/exercises/tree/cash_register/telephoneCheck",
+        link: "/phoneCheck/",
     },
     {
         id: 1,
