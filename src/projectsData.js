@@ -17,27 +17,6 @@ export default [
         link: "/generator",
     },
     {
-        id: 3,
-        title: "Money Tracker",
-        coverImg: Calculator,
-        description: "Expense tracking application",
-        link: "https://github.com/Patka879/money-tracker-app",
-    },
-    {
-        id: 8,
-        title: "GoT API App",
-        coverImg: Dragon,
-        description: "Database of characters and houses from Game of Thrones",
-        link: "/got-api-app",
-    },
-    {
-        id: 9,
-        title: "This Page",
-        coverImg: Portfolio,
-        description: "Portfolio page created with react.js",
-        link: "https://github.com/Patka879/my-portfolio",
-    },
-    {
         id: 2,
         title: "Factorial",
         coverImg: Exclam,
@@ -72,12 +51,33 @@ export default [
         description: "Validates the format of phone number",
         link: "/phone-check/",
     },
+    // {
+    //     id: 1,
+    //     title: "Timer",
+    //     coverImg: Stopwatch,
+    //     description: "Starts and stops the timer on command",
+    //     link: "https://github.com/Patka879/exercises/blob/master/timer.js",
+    // },
     {
-        id: 1,
-        title: "Timer",
-        coverImg: Stopwatch,
-        description: "Starts and stops the timer on command",
-        link: "https://github.com/Patka879/exercises/blob/master/timer.js",
+        id: 3,
+        title: "Money Tracker",
+        coverImg: Calculator,
+        description: "Expense tracking application",
+        link: "https://github.com/Patka879/money-tracker-app",
+    },
+    {
+        id: 8,
+        title: "GoT API App",
+        coverImg: Dragon,
+        description: "Database of characters and houses from Game of Thrones",
+        link: "/got-api-app",
+    },
+    {
+        id: 9,
+        title: "This Page",
+        coverImg: Portfolio,
+        description: "Portfolio page created with react.js",
+        link: "https://github.com/Patka879/my-portfolio",
     }
 
 ]
