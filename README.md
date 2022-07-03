@@ -12,7 +12,7 @@ Project is created with:
 * docker
 * nginx
 ## Setup 
-To start this project localy:
+To start this project locally:
 
 Clone the repository:
 ```
