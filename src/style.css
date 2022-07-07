@@ -84,7 +84,9 @@ nav * {
 }
 
 .gitlogo:hover, .linklogo:hover {
-    fill: rgb(28, 149, 190)
+    fill: rgb(28, 149, 190);
+    transform: scale(1.20);
+    transition: all 250ms;
 }
 
 .nav-link, .github-link, .nav-link-active, .linkedin-link {
@@ -317,12 +319,11 @@ li:hover {
     .nav-link-active {
         font-size: larger;
         text-decoration: overline;
+        color: rgb(28, 149, 190);
     }
     .nav-link:hover {
-        text-decoration: line-through;
-    }
-    .nav-logo:hover {
-        text-decoration: line-through;
+        transform: scale(1.20);
+        transition: all 250ms 
     }
     .gitlogo, .linklogo {
         width: 30px;
