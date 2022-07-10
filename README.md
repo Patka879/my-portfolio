@@ -14,11 +14,11 @@ Project is created with:
 ## Setup 
 To start this project locally:
 ```
-npm ci
+$ npm ci
 ```
 Clone the repository:
 ```
-git clone git@github.com:Patka879/my-portfolio.git
+$ git clone git@github.com:Patka879/my-portfolio.git
 ```
 Run the project:
 ```
