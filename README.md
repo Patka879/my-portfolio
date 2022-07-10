@@ -13,7 +13,9 @@ Project is created with:
 * nginx
 ## Setup 
 To start this project locally:
-
+```
+npm ci
+```
 Clone the repository:
 ```
 git clone git@github.com:Patka879/my-portfolio.git
