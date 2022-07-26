@@ -1,4 +1,4 @@
-import {HTMLIcon, CSSIcon, JavaScriptIcon, ReactIcon, NodeIcon, TypeScriptIcon, GitIcon, English, Docker, Communication, Team, ERPIcon,SAPIcon, Responsive, Jira, JSONIcon, Timemng} from "./images/index.js"
+import {HTMLIcon, CSSIcon, JavaScriptIcon, ReactIcon, NodeIcon, GitIcon, English, Docker, Communication, Team, ERPIcon,SAPIcon, Responsive, Jira, JSONIcon, Timemng} from "./images/index.js"
 
 
 export default [

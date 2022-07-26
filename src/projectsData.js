@@ -1,4 +1,4 @@
-import {Stopwatch, Ruler, Exclam, Calculator, Meme,  Palindrome, Cash, Phone, Dragon, Portfolio, Dice} from "./images/index.js" 
+import {Ruler, Exclam, Calculator, Meme,  Palindrome, Cash, Phone, Dragon, Portfolio, Dice} from "./images/index.js" 
 
 
 export default [
