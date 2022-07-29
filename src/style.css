@@ -272,7 +272,7 @@ li:hover {
     body {
         width: 100vw;
         height: 100%; 
-        overflow-y: scroll;
+        overflow-x: hidden;
     }
     #root {
         padding: 60px 50px 60px 50px;
