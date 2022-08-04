@@ -39,3 +39,7 @@ services:
     container_name: phone-check-app
     image: phone-check-app
     build: ../exercises/phone-check/
+  restaurant:
+    container_name: restaurant
+    image: restaurant
+    build: ../restaurant/
