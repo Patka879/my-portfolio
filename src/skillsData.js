@@ -1,4 +1,4 @@
-import {HTMLIcon, CSSIcon, JavaScriptIcon, ReactIcon, NodeIcon, GitIcon, English, Docker, Communication, Team, ERPIcon,SAPIcon, Responsive, Jira, JSONIcon, Timemng} from "./images/index.js"
+import {HTMLIcon, CSSIcon, SassIcon, JavaScriptIcon, ReactIcon, ApiIcon, NodeIcon, GitIcon, English, Docker, Communication, Team, ERPIcon,SAPIcon, Responsive, Jira, JSONIcon, Timemng} from "./images/index.js"
 
 
 export default [
@@ -13,6 +13,11 @@ export default [
         coverImg: CSSIcon,
     },
     {
+        id: 18,
+        title: "Sass",
+        coverImg: SassIcon,
+    },
+    {
         id: 3,
         title: "JavaScript",
         coverImg: JavaScriptIcon,
@@ -21,6 +26,11 @@ export default [
         id: 4,
         title: "React.js",
         coverImg: ReactIcon,
+    },
+    {
+        id: 4,
+        title: "REST Api",
+        coverImg: ApiIcon,
     },
     {
         id: 5,
