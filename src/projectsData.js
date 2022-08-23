@@ -32,7 +32,7 @@ export default [
     },
     {
         id: 12,
-        title: "Unit Coverter",
+        title: "Unit Converter",
         coverImg: Ruler,
         description: "Converts beetween Imperial and Metric units",
         link: "/unit-converter/",
