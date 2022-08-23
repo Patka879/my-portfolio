@@ -38,6 +38,13 @@ export default [
         link: "/unit-converter/",
     },
     {
+        id: 12,
+        title: "Steak House",
+        coverImg: Steak,
+        description: "Home Page for a steak house restaurant built using Vanilla JS",
+        link: "/restaurant/",
+    },
+    {
         id: 5,
         title: "Cash Register",
         coverImg: Cash,
@@ -78,13 +85,5 @@ export default [
         coverImg: Portfolio,
         description: "Portfolio page created with react.js",
         link: "https://github.com/Patka879/my-portfolio",
-    },
-    {
-        id: 12,
-        title: "Steak House",
-        coverImg: Steak,
-        description: "Home Page for a steak house restaurant built using Vanilla JS",
-        link: "https://github.com/Patka879/restaurant",
     }
-
 ]
