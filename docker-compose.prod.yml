@@ -43,3 +43,7 @@ services:
     container_name: restaurant
     image: restaurant
     build: ../restaurant/
+  restaurant:
+    container_name: landing-page
+    image: landing-page
+    build: ../landing-page/
