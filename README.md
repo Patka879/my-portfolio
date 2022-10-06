@@ -1,5 +1,5 @@
 # PORTFOLIO
-##### My portfolio website https://patrycjamysiak.pl/
+##### My portfolio website: https://patrycjamysiak.pl/
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
