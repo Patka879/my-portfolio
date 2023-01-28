@@ -10,6 +10,13 @@ export default [
         link: "/tenzies",
     },
     {
+        id: 12,
+        title: "Steak House",
+        coverImg: Steak,
+        description: "Home Page for a steak house restaurant built using Vanilla JS",
+        link: "/restaurant/",
+    },
+    {
         id: 11,
         title: "Generator",
         coverImg: Meme,
@@ -36,13 +43,6 @@ export default [
         coverImg: Ruler,
         description: "Converts beetween Imperial and Metric units",
         link: "/unit-converter/",
-    },
-    {
-        id: 12,
-        title: "Steak House",
-        coverImg: Steak,
-        description: "Home Page for a steak house restaurant built using Vanilla JS",
-        link: "/restaurant/",
     },
     {
         id: 5,
