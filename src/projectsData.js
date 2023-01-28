@@ -1,4 +1,4 @@
-import {Ruler, Exclam, Calculator, Meme,  Palindrome, Cash, Phone, Dragon, Portfolio, Dice, Steak} from "./images/index.js" 
+import {Interior, Ruler, Exclam, Calculator, Meme,  Palindrome, Cash, Phone, Dragon, Portfolio, Dice, Steak} from "./images/index.js" 
 
 
 export default [
@@ -8,6 +8,13 @@ export default [
         coverImg: Dice,
         description: "Simple dice game",
         link: "/tenzies",
+    },
+    {
+        id: 13,
+        title: "Interiors",
+        coverImg: Interior,
+        description: "Website created in Wordpress for an interior design company",
+        link: "https://jinteriors.pl/",
     },
     {
         id: 12,
@@ -38,7 +45,7 @@ export default [
         link: "/palindrome/",
     },
     {
-        id: 12,
+        id: 6,
         title: "Unit Converter",
         coverImg: Ruler,
         description: "Converts beetween Imperial and Metric units",
