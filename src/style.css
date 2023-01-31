@@ -165,6 +165,8 @@ nav * {
 
 .experience-container {
     margin: 120px 10px 0 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 ul {
@@ -181,6 +183,13 @@ ul {
     color:rgb(28, 149, 190)
 }
 
+.cert-data { 
+    margin: 0px 22px 100px 22px;
+    animation-name: fadein;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out; 
+}
+
 .certificates-title {
     font-family: 'Open Sans', sans-serif; 
     font-size: 32px;   
@@ -189,21 +198,26 @@ ul {
     color:rgb(28, 149, 190)
 }
 
-.cert-data { 
-    margin-bottom: 100px;
-    animation-name: fadein;
-    animation-duration: 0.75s;
-    animation-timing-function: ease-in-out; 
-}
-
 .certificate { 
     font-size: 26px;
     text-decoration: none;
     color: black;
-    text-align:center;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 40px;
 }
 
-li, .cert--description { 
+.cert--description {
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    font-family: 'Varela Round', sans-serif;
+}
+
+li { 
     font-size: 14px;
     line-height: 22px;
     font-weight: 400;
@@ -280,12 +294,19 @@ li:hover, .certificate:hover{
     .experience-container {
         margin: 100px 40px 0px 40px;
     }
+    .certificates-title {
+        font-size: 36px;
+    }
+    .cert--description {
+        font-size: 18px;
+        margin: 46px;
+    }
     ul {
         font-size: 36px;
     }
     li {
         font-size: 18px;
-        margin: 30px;
+        margin: 46px;
     }
     .skill--icon {
         width: 30%;
@@ -394,6 +415,17 @@ li:hover, .certificate:hover{
     .experience-container {
         margin: 70px 0;
     }
+    .certificates-title {
+        font-size: 38px;
+        font-weight: 700;
+    }
+    .certificate {
+        font-size: 26px; 
+    }
+    .cert--description {
+        font-size: 16px; 
+        line-height: 30px;  
+    }
     ul {
         font-size: 38px;
         font-weight: 700;
@@ -491,6 +523,10 @@ li:hover, .certificate:hover{
     .project-description {
         font-size: 18px;
     }
+    .cert--description {
+        font-size: 20px;
+        line-height: 45px;
+    }
     li {
         font-size: 20px;
     }
@@ -520,6 +556,13 @@ li:hover, .certificate:hover{
           font-size: 22px;
           line-height: 36px;
       }
+      .certificates-title {
+        font-size: 42px;
+      }
+      .cert--description {
+        font-size: 24px;
+        line-height: 48px;
+      }
       ul {
           font-size: 42px;
       }
@@ -544,6 +587,12 @@ li:hover, .certificate:hover{
     }
     .project--title {
         font-size: 52px;
+    }
+    .certificates-title {
+        font-size: 52px;
+    }
+    .cert--description{
+        height: 60px;
     }
     ul {
         font-size: 52px;
@@ -575,6 +624,12 @@ li:hover, .certificate:hover{
     }
     .experience-container {
         margin: 90px 150px;
+    }
+    .certificates-title {
+        font-size: 40px;
+    }
+    .cert--description {
+        font-size: 28px;
     }
     ul {
         font-size: 40px;
@@ -650,6 +705,15 @@ li:hover, .certificate:hover{
         line-height: 80px;
         height: 100px;
       }
+      .certificates-title {
+        font-size: 100px;
+        line-height: 160px;
+      }
+      .cert--description {
+        font-size: 60px;
+        line-height: 90px;
+        height: 200px;
+      }
       ul {
         font-size: 100px;
         line-height: 160px;
@@ -701,6 +765,15 @@ li:hover, .certificate:hover{
     }
     .experience-container {
         margin-left: 300px;
+    }
+    .certificates-title {
+        font-size: 120px;
+        line-height: 260px;
+    }
+    .cert--description {
+      font-size: 60px;
+      line-height: 90px;
+      height: 200px;
     }
     ul {
         font-size: 120px;
