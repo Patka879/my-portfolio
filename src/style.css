@@ -170,16 +170,40 @@ nav * {
 ul {
     font-family: 'Open Sans', sans-serif; 
     font-size: 32px;   
-    line-height: 60px; 
     text-align: center;
+    line-height: 60px; 
     padding-inline-start: 10px;
     animation-name: fadein;
     animation-duration: 0.75s;
     animation-timing-function: ease-in-out; 
     margin: 0px;
+    text-decoration: none;
+    color:rgb(28, 149, 190)
 }
 
-li { 
+.certificates-title {
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 32px;   
+    text-align: center;
+    line-height: 60px;
+    color:rgb(28, 149, 190)
+}
+
+.cert-data { 
+    margin-bottom: 100px;
+    animation-name: fadein;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out; 
+}
+
+.certificate { 
+    font-size: 26px;
+    text-decoration: none;
+    color: black;
+    text-align:center;
+}
+
+li, .cert--description { 
     font-size: 14px;
     line-height: 22px;
     font-weight: 400;
@@ -188,7 +212,11 @@ li {
     font-family: 'Varela Round', sans-serif;
 }
 
-li:hover {
+li {
+    color: black;
+}
+
+li:hover, .certificate:hover{
     color: rgb(28, 149, 190);
     transform: scale(1.02);
     transition: all 250ms cubic-bezier(0.6, 0, 0, 0.4);
