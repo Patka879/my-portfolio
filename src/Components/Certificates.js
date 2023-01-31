@@ -6,8 +6,10 @@ export default function Certificates() {
             {data.map(item => {
                 return (
                     <div className='certList'>
-                        <p className='certTitle'>{item.title}</p>
-                        <p className='certDescription'>{item.description}</p>
+                        <a className='certificate' target='_blank' rel='noreferrer' href={item.link} key={item.id}>{item.title}
+                            <span className="cert--title">{item.title}</span>
+                            <span className="cert-description">{item.description}</span>
+                        </a>
                     </div>
                 )
             })}

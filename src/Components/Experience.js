@@ -1,6 +1,9 @@
+import Certificates from "./Certificates"
+
 export default function Experience() {
     return (
     <div className="experience-container">
+        <Certificates />
         <ul>Freelance Developer
             <li>Building websites from scratch, using semantic elements and "mobile first" approach. Planning their structure and design</li>
             <li>Creating react components, dumb components and using hooks</li>
