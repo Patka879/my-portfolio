@@ -224,6 +224,7 @@ li {
     text-align: justify;
     margin: 25px;
     font-family: 'Varela Round', sans-serif;
+    cursor: pointer;
 }
 
 li {
@@ -498,6 +499,38 @@ li:hover, .certificate:hover{
     }
     .experience-container {
         margin: 40px 60px 200px 60px;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .cert-data {
+        width: 50%;
+        padding: 0 30px;
+        border-right: 1.6px dotted rgb(28, 149, 190);
+    }
+    .certificates-title {
+        margin-top: 0;
+        font-size: 32px;
+    }
+    .cert--title {
+        font-size: 18px;
+    }
+    .cert--description {
+        margin: 0 26px;
+        font-size: 12px;
+        line-height: 24px;
+    }
+    ul {
+        width: 50%;
+        font-size: 32px;
+        padding: 0 30px;
+    }
+    li:first-child {
+        margin-top: 48px;
+    }
+    li {
+        margin: 10px 0;
+        font-size: 12px;
+        line-height: 24px;
     }
     .skills-container {
         margin-top: 40px;
