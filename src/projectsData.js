@@ -1,4 +1,4 @@
-import {Interior, Ruler, Exclam, Calculator, Meme,  Palindrome, Cash, Phone, Dragon, Portfolio, Dice, Steak} from "./images/index.js" 
+import {Car, Interior, Ruler, Exclam, Calculator, Meme,  Palindrome, Cash, Phone, Dragon, Portfolio, Dice, Steak} from "./images/index.js" 
 
 
 export default [
@@ -25,15 +25,8 @@ export default [
     },
     {
         id: 13,
-        title: "Interiors",
-        coverImg: Interior,
-        description: "Website created in Wordpress for an interior design company",
-        link: "https://jinteriors.pl/",
-    },
-    {
-        id: 13,
         title: "BMW Page",
-        coverImg: Interior,
+        coverImg: Car,
         description: "Landing Page for BMW",
         link: "/landing-page/public/index.html",
     },
@@ -92,13 +85,6 @@ export default [
         coverImg: Calculator,
         description: "Expense tracking application",
         link: "https://github.com/Patka879/money-tracker-app",
-    },
-    {
-        id: 8,
-        title: "GoT API App",
-        coverImg: Dragon,
-        description: "Database of characters and houses from Game of Thrones",
-        link: "https://github.com/Patka879/GoT-API-app"
     },
     {
         id: 9,
