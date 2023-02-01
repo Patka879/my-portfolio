@@ -24,6 +24,20 @@ export default [
         link: "/restaurant/",
     },
     {
+        id: 13,
+        title: "Interiors",
+        coverImg: Interior,
+        description: "Website created in Wordpress for an interior design company",
+        link: "https://jinteriors.pl/",
+    },
+    {
+        id: 13,
+        title: "BMW Page",
+        coverImg: Interior,
+        description: "Landing Page for BMW",
+        link: "/landing-page/public/index.html/",
+    },
+    {
         id: 11,
         title: "Generator",
         coverImg: Meme,
