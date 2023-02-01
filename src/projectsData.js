@@ -35,7 +35,7 @@ export default [
         title: "BMW Page",
         coverImg: Interior,
         description: "Landing Page for BMW",
-        link: "/landing-page/public/index.html/",
+        link: "/landing-page/public/index.html",
     },
     {
         id: 11,
