@@ -43,7 +43,7 @@ services:
     container_name: landing-page
     image: landing-page
     build: ../landing-page/
-  landing-page:
+  money-tracker-app:
     container_name: money-tracker-app
     image: money-tracker-app
     build: ../money-tracker-app/
