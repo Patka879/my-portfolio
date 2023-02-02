@@ -31,6 +31,13 @@ export default [
         link: "/landing-page/public/index.html",
     },
     {
+        id: 3,
+        title: "Money Tracker",
+        coverImg: Calculator,
+        description: "Expense tracking application",
+        link: "/money-tracker-app",
+    },
+    {
         id: 11,
         title: "Generator",
         coverImg: Meme,
@@ -79,13 +86,6 @@ export default [
     //     description: "Starts and stops the timer on command",
     //     link: "https://github.com/Patka879/exercises/blob/master/timer.js",
     // },
-    {
-        id: 3,
-        title: "Money Tracker",
-        coverImg: Calculator,
-        description: "Expense tracking application",
-        link: "money-tracker-app",
-    },
     {
         id: 9,
         title: "This Page",
