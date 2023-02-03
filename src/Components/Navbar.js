@@ -14,7 +14,6 @@ export default function Navbar() {
     return(
         <nav>
             <div className="nav-left" id='nav'>
-                {/* <Cloud className="nav-logo-icon" /> */}
                 <span className="nav-left-name">patrycja.mysiak</span>
             </div>
             <div className="nav-center">

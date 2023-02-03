@@ -17,12 +17,20 @@ export default function Content() {
     )
 
     return (
-        <Routes>
-            <Route path="/" element={<Navigate to="projects" />}></Route>
-            <Route path="experience" element={<Experience />}></Route>
-            <Route path="skills" element={<Skills />}></Route>
-            <Route path="projects" element={<Projects />}></Route>
-            <Route path="*" element={<Navigate to="/projects" replace />} />
-        </Routes> 
+        // <Routes>
+        //     <Route path="/" element={<Navigate to="projects" />}></Route>
+        //     <Route path="experience" element={<Experience />}></Route>
+        //     <Route path="skills" element={<Skills />}></Route>
+        //     <Route path="projects" element={<Projects />}></Route>
+        //     <Route path="*" element={<Navigate to="/projects" replace />} />
+        // </Routes> 
+        <div>
+            <h1 className='container-title'>Projects</h1>
+            <Projects />
+            <h1 className='container-title'>Experience</h1>
+            <Experience />
+            <h1 className='container-title'>Skills</h1>
+            <Skills />
+        </div>
     )
 }

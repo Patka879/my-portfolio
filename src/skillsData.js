@@ -49,7 +49,7 @@ export default [
     },
     {
         id: 9,
-        title: "Responsive web design",
+        title: "RWD",
         coverImg: Responsive,
     },
     {
@@ -76,21 +76,6 @@ export default [
         id: 14,
         title: "English C1",
         coverImg: English,
-    },
-    {
-        id: 15,
-        title: "Communiation skills",
-        coverImg: Communication,
-    },
-    {
-        id: 16,
-        title: "Teamwork",
-        coverImg: Team,
-    },
-    {
-        id: 17,
-        title: "Time management",
-        coverImg: Timemng,
     },
 
 ]
