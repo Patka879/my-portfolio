@@ -7,10 +7,11 @@ import WelcomePage from "./Components/WelcomePage"
 
 
 export default function App() {
+
   return (
     <div className="app-container">
       <WelcomePage />
-      <Navbar />
+      <Navbar  />
       <Content />
     </div>
   )

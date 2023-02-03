@@ -1,18 +1,18 @@
 import {GitLogo} from "../images/index.js"
 import {LinkedinLogo} from "../images/index.js"
 import {NavLink} from "react-router-dom"
-// import {Cloud} from "../images/index.js"
-
+import classNames from "classnames"
+import useSticky from "../useSticky"
 
 
 const generateLinkClass = ({isActive}) => 
 isActive ? "nav-link-active" : "nav-link"
 
 export default function Navbar() {
-      
-
+    const { sticky, stickyRef } = useSticky();
     return(
-        <nav>
+        <>
+        <nav ref={stickyRef} className={classNames('nav', { sticky })}>
             <div className="nav-left" id='nav'>
                 <span className="nav-left-name">patrycja.mysiak</span>
             </div>
@@ -42,5 +42,6 @@ export default function Navbar() {
                 </a>
             </div>
         </nav>
+        </>
     )
 }
