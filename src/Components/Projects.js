@@ -2,7 +2,6 @@ import data from "../projectsData"
 
 export default function Projects() {
 
-
     return (
         <div className="projects-container">
             {data.map(item => {

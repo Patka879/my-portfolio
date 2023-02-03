@@ -1,15 +1,13 @@
 import {GitLogo} from "../images/index.js"
 import {LinkedinLogo} from "../images/index.js"
-import {NavLink} from "react-router-dom"
 import classNames from "classnames"
 import useSticky from "../useSticky"
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
-
-const generateLinkClass = ({isActive}) => 
-isActive ? "nav-link-active" : "nav-link"
 
 export default function Navbar() {
     const { sticky, stickyRef } = useSticky();
+    
     return(
         <>
         <nav ref={stickyRef} className={classNames('nav', { sticky })}>
@@ -17,21 +15,24 @@ export default function Navbar() {
                 <span className="nav-left-name">patrycja.mysiak</span>
             </div>
             <div className="nav-center">
-            <NavLink 
-                    to="projects" 
-                    className={generateLinkClass}
+                <AnchorLink 
+                    href="#projects" 
+                    className='nav-link'
+                    activeClassName='nav-link-active'
                     >projects
-                </NavLink>
-                <NavLink 
-                    to="experience" 
-                    className={generateLinkClass}
+                </AnchorLink>
+                <AnchorLink
+                    href="#experience" 
+                    className='nav-link'
+                    activeClassName='nav-link-active'
                     >experience
-                </NavLink>
-                <NavLink 
-                    to="skills" 
-                    className={generateLinkClass}
+                </AnchorLink>
+                <AnchorLink
+                    href="#skills" 
+                    className='nav-link'
+                    activeClassName='nav-link-active'
                     >skills
-                </NavLink>
+                </AnchorLink>
             </div>
             <div className="nav-right">
                 <a className="github-link" href="https://github.com/Patka879" target="_blank" rel="noreferrer"> 

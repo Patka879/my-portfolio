@@ -25,11 +25,11 @@ export default function Content() {
         //     <Route path="*" element={<Navigate to="/projects" replace />} />
         // </Routes> 
         <div>
-            <h1 className='container-title'>Projects</h1>
+            <h1 className='container-title' id="projects">Projects</h1>
             <Projects />
-            <h1 className='container-title'>Experience</h1>
+            <h1 className='container-title' id="experience">Experience</h1>
             <Experience />
-            <h1 className='container-title'>Skills</h1>
+            <h1 className='container-title' id="skills">Skills</h1>
             <Skills />
         </div>
     )

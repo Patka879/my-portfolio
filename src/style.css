@@ -386,7 +386,7 @@ li:hover, .certificate:hover{
         position: static;
         padding: 0px 50px;
         margin: 0;
-        background-color:#1b242f;
+        background-color:#252934;
         box-shadow: none;
         border-bottom: 3px solid rgb(28, 149, 190);
         transform: scale(1.03);
@@ -414,7 +414,7 @@ li:hover, .certificate:hover{
         background-color: transparent;
         font-family: 'Raleway', sans-serif;
         text-transform: uppercase;
-        font-weight: 700;
+        font-weight: 400;
     }
     .nav-right {
         font-size: 14px;
@@ -425,7 +425,7 @@ li:hover, .certificate:hover{
         align-items: center;
         margin: 0 18px;
         text-decoration: none;
-        color:#cbd2d4;
+        color: #fff;
         fill: black;
         padding: 10px;
         border: none;
@@ -456,9 +456,10 @@ li:hover, .certificate:hover{
     .projects-container {
         justify-content: space-around;
         flex-wrap: wrap;
-        margin-top: 0;
+        padding: 0 10px;
         background-color:#f5f5f5;
         font-family: 'Raleway', sans-serif;
+        margin-top: 80px;
     }
     .project {
         width: 20%; 
@@ -478,9 +479,10 @@ li:hover, .certificate:hover{
         margin-bottom: 40px;
         font-size: 18px;
         height: 18px;
-        font-weight: 500;
+        font-weight: 700;
         font-family: 'Raleway', sans-serif;
         text-transform: uppercase;
+        color:rgb(28, 149, 190)
     }
     .project--icon {
         width: 20%;
@@ -489,7 +491,7 @@ li:hover, .certificate:hover{
     .project--description {
         font-family: 'Raleway', sans-serif;
         font-size: 12px;
-        height: 80px;   
+        height: 40px;  
         color: #616161;
     }
     .experience-container {
@@ -540,8 +542,8 @@ li:hover, .certificate:hover{
         margin: 10px 20px;
     }
     .skills-container {
-        padding: 0 50px;
-        background-color: #efefef8a;
+        padding: 20px 50px;
+        background-color: #adacac8a;
         margin: 0 0 100px 0;
     }
     .skills-list {
@@ -570,6 +572,20 @@ li:hover, .certificate:hover{
         font-weight: 500;
         font-family: 'Raleway', sans-serif;
         text-transform: uppercase;
+    }
+    .footer {
+        background-color: #252934; 
+        transform: skewX(34%);
+    }
+    .footer-name {
+        font-size: 12px;
+        color:#555454;
+        text-align: center;
+        font-weight: 300;
+        margin: 60px 0px 20px 0px;
+    }
+    .footer-date {
+        color:#e31b6e99
     }
   } 
 

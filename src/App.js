@@ -4,6 +4,7 @@ import React from "react"
 import Navbar from "./Components/Navbar"
 import Content from "./Components/Content"
 import WelcomePage from "./Components/WelcomePage"
+import Footer from "./Components/Footer"
 
 
 export default function App() {
@@ -13,6 +14,7 @@ export default function App() {
       <WelcomePage />
       <Navbar  />
       <Content />
+      <Footer />
     </div>
   )
 }
