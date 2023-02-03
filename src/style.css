@@ -416,9 +416,6 @@ li:hover, .certificate:hover{
         text-transform: uppercase;
         font-weight: 400;
     }
-    .nav-right {
-        font-size: 14px;
-    }
     .nav-link, .github-link, .nav-link-active {
         background-color: transparent;
         display: flex;
@@ -437,7 +434,11 @@ li:hover, .certificate:hover{
     }
     .nav-link:hover {
         transform: scale(1.10);
-        transition: all 250ms 
+        transition: all 250ms;
+        color:#e31b6d;
+    }
+    .anchor-div {
+        height: 2px;
     }
     .gitlogo, .linklogo {
         width: 20px;
@@ -589,120 +590,47 @@ li:hover, .certificate:hover{
     }
   } 
 
-  @media (min-width: 1260px) {
-    nav {
-        padding: 30px 60px;
+  @media (min-width: 1450px) {
+    .nav-center {
+        padding: 10px 35px;
+        font-size: 18px;
     }
     .nav-left {
         font-size: 16px;
+    }
+    .gitlogo, .linklogo {
+        width: 26px;
+    }
+    .welcome-message {
+        font-size: 25px;
+    }
+    .welcome-btn {
+        font-size: 20px;
+        padding: 20px 35px;
+        margin-top: 20px;
+    }
+    .container-title {
+        font-size: 36px;
     }
     .projects-container {
-        margin-top: 40px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
     .project {
-        width: 26%;
-        padding: 10px;
-        margin-bottom: 30px;
-    }
-    .project:hover { 
-        outline-offset: 15px;
+        margin-bottom: 50px;
     }
     .project--title {
-        font-size: 38px;
-        height: 100px;
-        margin-bottom: 20px;   
+        font-size: 24px;
     }
-    .project--icon {
-        width: 70px;
-        margin-bottom: 70px;
-    }
-    .project-description {
-        font-size: 14px;
-        height: 65px;
-    }
-    .experience-container {
-        margin: 40px 60px 200px 60px;
-    }
-    .certificates-title {
-        margin-top: 0;
-        font-size: 32px;
-    }
-    .cert--title {
+    .project--description {
         font-size: 18px;
-    }
-    .cert--description {
-        margin: 0 26px;
-        font-size: 12px;
         line-height: 24px;
     }
-    .skills-container {
-        margin-top: 40px;
-    }
-    .skill--icon {
-        width: 55px;
-    }
-    .skill--title {
-        font-size: 18px;
-    }
   }
 
-  @media (min-width: 1450px) {
-    .nav-left {
-        font-size: 20px;
-    }
-    .projet {
-        outline-offset: 20px;
-    }
-    .project--title {
-        font-size: 38px;
-    }
-    .project-description {
-        font-size: 18px;
-    }
-    .cert--description {
-        font-size: 16px;
-        line-height: 36px;
-    }
-    .cert--title {
-        font-size: 22px;
-    }
-    li {
-        font-size: 16px;
-        line-height: 36px;
-    }
-    .skill--icon {
-        width: 70px;
-    }
-    .skill--title {
-        font-size: 20px;
-    }
-    
-  }
-
-  @media (min-width: 1600px) {
-      .projects-container, .skills-container, .experience-container {
-          margin-top: 100px;
-      }
-      .nav-center {
-          font-size: 22px;
-      }
-      .nav-left {
-          font-size: 22px;
-      }
-      .project--title {
-          font-size: 42px;
-      }
-      .project-description {
-          font-size: 22px;
-          line-height: 36px;
-      }
-      .cert-data {
-        border-right: 2.5px dotted rgb(28, 149, 190);
-      }
-      .skill--title {
-          font-size: 24px;
-      }
-  }
+ 
+     
+     
 
   @media (min-width: 1770px) {
     .projects-container, .skills-container, .experience-container {
