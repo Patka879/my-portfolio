@@ -14,7 +14,7 @@ body {
     height: 100%;
     width: 100%;
     background-color: #cbd2d4;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Raleway', sans-serif;
     padding: 0;
 }
 .welcome-container {
@@ -156,8 +156,7 @@ body {
     padding-bottom: 7px;
     height: 64px;
     margin-bottom: 30px;
-    font-size: 26px;
-    font-family: 'Open Sans', sans-serif; 
+    font-size: 26px; 
 }
 
 .project--icon {
@@ -180,7 +179,6 @@ body {
 }
 
 ul {
-    font-family: 'Open Sans', sans-serif; 
     font-size: 32px;   
     text-align: center;
     line-height: 60px; 
@@ -201,7 +199,6 @@ ul {
 }
 
 .certificates-title {
-    font-family: 'Open Sans', sans-serif; 
     font-size: 32px;   
     text-align: center;
     line-height: 60px;
@@ -215,7 +212,6 @@ ul {
     display: inline-block;
     text-align: center;
     width: 100%;
-    font-family: 'Open Sans', sans-serif;
     margin-bottom: 40px;
 }
 
@@ -224,7 +220,6 @@ ul {
     font-size: 14px;
     line-height: 22px;
     font-weight: 400;
-    font-family: 'Varela Round', sans-serif;
 }
 
 li { 
@@ -233,7 +228,6 @@ li {
     font-weight: 400;
     text-align: justify;
     margin: 25px;
-    font-family: 'Varela Round', sans-serif;
     cursor: pointer;
 }
 
@@ -346,7 +340,6 @@ li:hover, .certificate:hover{
         display: flex;
         justify-content: center;
         align-items: center;
-        font-family: 'Raleway', sans-serif;
     }
     .welcome-message {
         text-align: center;
@@ -405,11 +398,10 @@ li:hover, .certificate:hover{
             top: auto;
             left: auto;
             right: auto;
-        font-size: 10px;
+        font-size: 12px;
         padding: 5px 25px;
         justify-content: space-between;
         background-color: transparent;
-        font-family: 'Raleway', sans-serif;
         text-transform: uppercase;
         font-weight: 400;
     }
@@ -449,7 +441,6 @@ li:hover, .certificate:hover{
         text-align: center;
         text-transform: uppercase;
         color:rgb(74, 74, 74);
-        font-family: 'Raleway', sans-serif;
         font-weight: 700;
     }
     .projects-container {
@@ -457,7 +448,6 @@ li:hover, .certificate:hover{
         flex-wrap: wrap;
         padding: 0 10px;
         background-color:#f5f5f5;
-        font-family: 'Raleway', sans-serif;
         margin: 70px 0 0 0;
     }
     .project {
@@ -479,7 +469,6 @@ li:hover, .certificate:hover{
         font-size: 18px;
         height: 18px;
         font-weight: 700;
-        font-family: 'Raleway', sans-serif;
         text-transform: uppercase;
         color:rgb(28, 149, 190)
     }
@@ -488,9 +477,8 @@ li:hover, .certificate:hover{
         margin-bottom: 40px;
     }
     .project--description {
-        font-family: 'Raleway', sans-serif;
-        font-size: 12px;
-        height: 40px;  
+        font-size: 14px;
+        line-height: 20px; 
         color: #616161;
     }
     .experience-container {
@@ -515,11 +503,10 @@ li:hover, .certificate:hover{
     .cert--title {
         font-size: 18px;
         font-weight: 500;
-        font-family: 'Raleway', sans-serif;
         text-transform: uppercase; 
     }
     .cert--description {
-        font-size: 12px;
+        font-size: 14px;
         line-height: 22px;
         color: #616161; 
         margin: 10px 20px;
@@ -535,7 +522,7 @@ li:hover, .certificate:hover{
     }
     li {
         margin: 10px 0;
-        font-size: 12px;
+        font-size: 14px;
         line-height: 22px;
         color: #616161; 
         margin: 10px 20px;
@@ -569,7 +556,6 @@ li:hover, .certificate:hover{
         font-size: 14px;
         height: 40px;
         font-weight: 500;
-        font-family: 'Raleway', sans-serif;
         text-transform: uppercase;
     }
     .footer {
@@ -588,7 +574,15 @@ li:hover, .certificate:hover{
     }
   } 
 
-  @media (min-width: 1450px) {
+  @media (min-width: 1410px) {
+    .welcome-header {
+        font-size: 30px;
+    }
+    .welcome-btn {
+        margin-top: 30px;
+        font-size: 20px;
+        padding: 15px 25px;
+    }
     .nav-center {
         padding: 10px 35px;
         font-size: 18px;
@@ -596,16 +590,11 @@ li:hover, .certificate:hover{
     .nav-left {
         font-size: 16px;
     }
+    .nav-link {
+        font-size: 16px;
+    }
     .gitlogo, .linklogo {
         width: 26px;
-    }
-    .welcome-message {
-        font-size: 25px;
-    }
-    .welcome-btn {
-        font-size: 20px;
-        padding: 20px 35px;
-        margin-top: 20px;
     }
     .container-title {
         font-size: 36px;
@@ -614,236 +603,391 @@ li:hover, .certificate:hover{
         padding-top: 50px;
         padding-bottom: 50px;
     }
+    .projects-container, .skills-container, .experience-container {
+        margin-bottom: 70px;
+    }
     .project {
         margin-bottom: 50px;
+        height: 230px;
     }
-    .project--title {
+    .project--title, .cert--title {
         font-size: 24px;
     }
-    .project--description {
+    .project--description, .cert--description, li, .skill--title {
         font-size: 18px;
         line-height: 24px;
+    }
+    .certificates-title {
+        margin-bottom: 30px;
+    }
+    li:first-child {
+        margin-top: 50px;
+    }
+    .skills-list {
+        margin: 16px;
+    }
+  }
+
+  @media (min-width: 1550px) {
+    .welcome-header {
+        font-size: 40px;
+    }
+    .welcome-btn {
+        padding: 18px 36px;
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    .container-title {
+        margin-bottom: 120px;
+    }
+    .certificates-title, ul {
+        font-size: 30px;
+    }
+    .experience-container, .projects-container, .skills-container {
+        margin-bottom: 120px;
+    }
+    .footer {
+        height: 150px;
+    } 
+    .footer-date, .footer-name {
+        margin-top: 100px;
+        font-size: 22px;
     }
   }
 
   @media (min-width: 1770px) {
+    .welcome-header {
+        font-size: 50px;
+    }
+    .welcome-btn {
+        padding: 20px 40px;
+        font-size: 30px;
+        margin-top: 40px;
+    }
     .projects-container, .skills-container, .experience-container {
         margin-top: 140px;
     }
     .nav-left {
-        font-size: 30px;
+        font-size: 22px;
     }
-    .nav-center { 
-        font-size: 24px;
+    .nav-left, .nav-right {
+        margin: 0 10px;
     }
-    .project--title {
-        font-size: 52px;
+    .nav-link {
+        font-size: 22px;
     }
-    .cert-data {
-        border-right: 3px dotted rgb(28, 149, 190);
-    }
-    .certificates-title {
-        font-size: 42px;
-    }
-    .cert--description{
-        font-size: 18px;
-    }
-    ul {
-        font-size: 42px;
-    }
-    li:first-child {
-        margin-top: 69px;
-    }
-    li {
-        font-size: 18px;
-    }
-  }
-
-  @media (min-width: 2000px) {
-    nav {
-        padding: 30px 70px;
+    .container-title {
+       font-size: 40px;
     }
     .project {
-        margin-bottom: 70px;
+        padding: 25px 5px;
+        height: 300px;
     }
     .project--title {
-        margin-bottom: 40px;
+        font-size: 30px;
+        margin-bottom: 50px;
     }
-    .project--icon {
-        width: 90px;
-        margin-bottom: 80px;
-    }
-    .skills-container {
-        margin-top: 50px;
-    }
-    .skill--icon {
-        width: 74px;
-    }
-    .experience-container {
-        margin: 90px 150px;
-    }
-    .cert--title { 
-        font-size: 26px;
-    }
-    .cert--description {
+    .project--description {
         font-size: 20px;
     }
-    li {
-        font-size: 20px;
+    .cert-data {
+        border-right: 4px dotted rgb(28, 149, 190);
     }
-  }
-
-  @media (min-width: 2130px) {
-      .nav-center {
-          font-size: 28px;
-      }
-      .project-description {
-          font-size: 28px;
-      }
-      .skill--icon {
-          width: 80px;
-      }
-      .skill--title {
-          font-size: 30px;
-      }
-  }
-
-  @media (min-width: 2400px) {
-    nav {
-        padding: 30px 100px;
-    }
-    .nav-link, .nav-link-active {
-        margin-right: 80spx;
-    }
-    .projects-container, .skills-container {
-        margin: 180px 0px 180px 0;
-    }
-    .experience-container {
-        margin-top: 180px;
-        margin-bottom: 180px
-    }
-  }
-
-  @media (min-width: 3200px) {
-      nav {
-          padding: 100px 160px;
-      }
-      .nav-link, .nav-link-active {
-        margin-right: 100px;
-    }
-      .nav-center {
-          font-size: 50px;
-      }
-      .nav-left {
-          font-size: 34px;
-      }
-      .gitlogo, .linklogo {
-          width: 60px;
-      }
-      .project {
-          margin-bottom: 200px;
-      }
-      .project:hover {
-        outline-offset: 80px;
-      }
-      .project--title {
-          font-size: 100px;
-          height: 200px;
-      }
-      .project--icon {
-          width: 120px;
-          margin-bottom: 160px;
-      }
-      .project-description {
-        font-size: 50px;
-        line-height: 80px;
-        height: 100px;
-      }
-      .certificates-title {
-        font-size: 70px;
-      }
-      .cert--title {
-        font-size: 50px;
-      }
-      .cert--description {
-        font-size: 40px;
-        line-height: 80px;
-      }
-      ul {
-        font-size: 70px;
-        padding-left: 100px;
-      }
-      li {
-        font-size: 40px;
-        line-height: 80px;
-        margin-bottom: 40px;
-      }
-      .skills-list {
-          margin-bottom: 100px;
-      }
-      .skill--icon {
-          width: 150px;
-      }
-      .skill--title {
-          font-size: 50px;
-      }
-  }
-
-  @media (min-width: 4800px) {
-    .nav-left {
-        font-size: 60px;
-    }
-    .nav-center {
-        font-size: 60px;
-    }
-    .nav-link, .nav-link-active {
-        margin-right: 120px;
-    }
-    .projects-container, .skills-container, .experience-container {
-        margin-top: 360px;
-    }
-    .gitlogo, .linklogo {
-        width: 80px;
-    }
-    .project--title {
-        font-size: 120px;
-        height: 240px;
-    }
-    .project--icon {
-        width: 200px;
-        margin-bottom: 160px;
-    }
-    .project-description {
-        font-size: 60px;
-        line-height: 100px;
-        height: 200px;
-    }
-    .experience-container {
-        margin-left: 300px;
+    .certificate {
+        margin-bottom: 30px;
     }
     .certificates-title {
-        font-size: 120px;
-        line-height: 260px;
+        font-size: 40px;
+        margin-bottom: 36px;
     }
-    .cert--description {
-      font-size: 60px;
-      line-height: 90px;
-      height: 200px;
+    .cert--title {
+        font-size: 30px;
+    }
+    .cert--description{
+        font-size: 20px;
+        line-height: 30px;
     }
     ul {
-        font-size: 120px;
-        line-height: 260px;
+        font-size: 40px;
+    }
+    li:first-child {
+        margin-top: 65px;
     }
     li {
-      font-size: 60px;
-      line-height: 90px;
-      height: 200px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .skills-container {
+        margin-bottom: 200px;
     }
     .skill--title {
-        font-size: 60px;
+        font-size: 20px;
     }
-
+    .footer-name, .footer-date {
+        font-size: 20px;
+        margin-top: 150px;
+    }
+    .footer {
+        height: 200px;
+    }
   }
 
+  @media (min-width: 2130px) { 
+        .welcome-header {
+            font-size: 40px;
+        }
+        .welcome-btn {
+            padding: 30px 70px;
+            margin-top: 40px;
+        }
+        .nav-center {
+            margin: 20px 0;
+        }
+        .nav-link {
+            font-size: 30spx;
+        }
+        .gitlogo, .linklogo {
+            width: 40px;
+        }
+        .nav-left, .nav-right {
+        margin: 0 30px;
+        }
+        .nav-left {
+            font-size: 30px;
+        }
+        .container-title {
+            font-size: 50px;
+            margin-top: 300px;
+        }
+        .project {
+            padding: 50px 20px;
+        }
+        .project--title, .cert--title {
+            font-size: 40px;
+        }
+        .project--icon {
+            margin: 40px 0 60px 0;
+        }
+        .project--description {
+            font-size: 30px;
+            line-height: 42px;
+            margin-bottom: 30px;
+        }
+        .cert-data {
+            border-right-width: 6px;
+        }
+        .certificates-title, ul {
+            font-size: 50px;
+            margin-bottom: 70px;
+        }
+        .cert--description, li, .skill--title {
+            font-size: 30px;
+            line-height: 42px;
+        }
+        li {
+            margin-bottom: 25px;
+        }
+        li:first-child {
+            margin-top: 100px;
+        }
+        ul {
+            padding: 0 80px;
+        }
+        .skills-list {
+            margin: 15px;
+            padding: 25px 10px 10px 10px;
+        }
+        .footer-date, .footer-name {
+            font-size: 26px;
+        }
+  }
+
+  @media (min-width:2500px) {
+    .welcome-header {
+        font-size: 56px;
+    }
+    .welcome-btn {
+        padding: 28px 60px;
+        font-size: 36px;
+        margin-top: 60px;
+    }
+    .nav-center {
+        margin: 18px 0;
+    }
+    .nav-link {
+        font-size: 30px;
+    }
+    .project {
+        height: 500px;
+    }
+    .skills-list {
+        margin: 30px;
+    }
+  }
+
+  @media (min-width: 3000px) {
+    .welcome-message {
+        font-size: 60px;
+    }
+    .welcome-btn {
+        padding: 40px 100px;
+        font-size: 50px;
+        margin-top: 60px;
+    }
+    .nav-center {
+        margin: 35px 0;
+    }
+    .nav-link {
+        font-size: 40px;
+    }
+    .nav-left {
+        font-size: 38px;
+        margin-left: 50px;
+    }
+    .nav-right {
+        margin-right: 50px;
+    }
+    .gitlogo, .linklogo {
+        width: 50px;
+    }
+    .container-title {
+        font-size: 70px;
+        margin-bottom: 250px;
+    }
+    .projects-container, .experience-container, .skills-container {
+        margin-bottom: 300px;
+    }
+    .project {
+        height: 600px;
+    }
+    .project--title {
+        margin-bottom: 80px;
+    }
+    .project--title, .cert--title {
+        font-size: 55px;
+    }
+    .project--icon {
+        margin-bottom: 80px;
+    }
+    .project--description, .cert--description, li, .skill--title {
+        font-size: 42px;
+        line-height: 60px;
+    }
+    .cert-data {
+        border-right-width: 10px;
+    }
+    .certificates-title, ul {
+        font-size: 70px;
+        margin-bottom: 120px;
+    }
+    li:first-child {
+        margin-top: 180px;
+    }
+    .skills-container {
+        padding: 30px 10px;
+    }
+    .skills-list {
+        margin: 40px;
+    }
+    .footer {
+        height: 400px;
+    }
+    .footer-date, .footer-name {
+        font-size: 40px;
+        margin-top: 300px;
+    }
+}
+
+@media (min-width: 3700px) {
+    .welcome-header {
+        font-size: 70px;
+    }
+}
+
+@media (min-width: 4000px) {
+    .welcome-header {
+        font-size: 100px;
+    }
+    .welcome-btn {
+        padding: 50px 110px;
+        font-size: 60px;
+        margin-top: 90px;
+    }
+    .nav-center {
+        margin: 40px 0;
+    }
+    .nav-link {
+        font-size: 50px;
+        margin-right: 70px;
+    }
+    .nav-left {
+        font-size: 48px;
+        margin-left: 70px;
+    }
+    .nav-right {
+        margin-right: 50px;
+    }
+    .gitlogo, .linklogo {
+        width: 70px;
+        margin-right: 40px;
+    }
+    .container-title {
+        font-size: 100px;
+        margin-bottom: 400px;
+    }
+    .projects-container {
+        margin-bottom: 400px;
+    }
+    .project {
+        height: 750px;
+        margin: 100px;
+    }
+    .project--title {
+        margin-bottom: 130px;
+    }
+    .project--icon {
+        margin-bottom: 120px;
+    }
+    .project--title, .cert--title {
+        font-size: 75px;
+    }
+    .project--description, .cert--description, li, .skill--title {
+        font-size: 52px;
+        line-height: 77px;
+    }
+    .experience-container {
+        margin-bottom: 400px;
+        padding: 0 100px;
+    }
+    .cert-data {
+        border-right-width: 13px;
+    }
+    .certificate {
+        margin-bottom: 100px;
+    }
+    .certificates-title, ul {
+        font-size: 90px;
+        margin-bottom: 150px;
+    }
+    li:first-child {
+        margin-top: 220px;
+    }
+    ul {
+        padding: 0 120px;
+    }
+    .skills-container {
+        margin-bottom: 400px;
+    }
+    .skills-list {
+        margin: 60px;
+    }
+    .footer {
+        height: 500px;
+    }
+    .footer-date, .footer-name {
+        font-size: 50px;
+        margin-top: 350px;
+    }
+}
   
   
