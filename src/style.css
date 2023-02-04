@@ -569,6 +569,7 @@ li:hover, .certificate:hover{
     .footer {
         background-color: #252934; 
         transform: skewX(34%);
+        display: block;
     }
     .footer-name {
         font-size: 12px;
