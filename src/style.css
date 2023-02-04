@@ -35,7 +35,7 @@ body {
         left: 0;
         right: 0;
     display: flex;
-    background-color: #2d2d2d;
+    background-color:#252934;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -53,9 +53,10 @@ body {
     display: flex;   
     font-size: 16px;
     font-weight: 600;
-    color: whitesmoke;
+    color: #fff;
     cursor: default;
     font-family: 'Pacifico', cursive;
+    font-weight: 300;
 }
 
 .nav-center {
@@ -65,8 +66,8 @@ body {
         left: 0;
         right: 0;
     font-size: 20px;
-    background-color: #2d2d2d;
-    color: whitesmoke;
+    background-color:#252934;
+    color: #fff;
 }
 
 @keyframes floating {
@@ -98,8 +99,8 @@ body {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: whitesmoke;
-    fill: whitesmoke;
+    color: #fff;
+    fill: #fff;
     padding: 10px;
 }
 
@@ -133,7 +134,7 @@ body {
    to {opacity: 100%;}
 }
 
-.projects-container-title {
+.container-title {
     display: none;
 }
 
@@ -143,13 +144,13 @@ body {
     padding: 10px 10px;
     margin: 30px 0;
     text-decoration: none;
-    color: black;
     text-align: center;
     align-items: center;
     width: 45%;  
     animation-name: fadein;
     animation-duration: 0.75s;
     animation-timing-function: ease-in-out;   
+    color: black;
 }
 
 .project--title {
@@ -157,6 +158,8 @@ body {
     height: 64px;
     margin-bottom: 30px;
     font-size: 26px; 
+    font-weight: 600;
+    color:rgb(28, 149, 190);
 }
 
 .project--icon {
@@ -180,6 +183,7 @@ body {
 
 ul {
     font-size: 32px;   
+    font-weight: 600;
     text-align: center;
     line-height: 60px; 
     padding-inline-start: 10px;
@@ -202,6 +206,7 @@ ul {
     font-size: 32px;   
     text-align: center;
     line-height: 60px;
+    font-weight: 600;
     color:rgb(28, 149, 190)
 }
 
@@ -229,9 +234,6 @@ li {
     text-align: justify;
     margin: 25px;
     cursor: pointer;
-}
-
-li {
     color: black;
 }
 
@@ -272,9 +274,12 @@ li:hover, .certificate:hover{
     text-align: center;
     font-size: 18px;
 }
+.footer {
+    display: none;
+}
 
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
     .nav {
         padding: 15px 35px;
     }
@@ -282,7 +287,7 @@ li:hover, .certificate:hover{
         font-size: 25px;
     }
     .nav-left {    
-        font-size: 14px;
+        font-size: 18px;
     }
     .nav-right {
         font-size: 25px;
@@ -293,7 +298,7 @@ li:hover, .certificate:hover{
     .project--title {
         font-size: 36px;
     }
-    .project-description {
+    .project--description {
         font-size: 20px;
     }
     .experience-container {
@@ -301,6 +306,9 @@ li:hover, .certificate:hover{
     }
     .certificates-title {
         font-size: 36px;
+    }
+    .cert--title {
+        font-size: 30px;
     }
     .cert--description {
         font-size: 18px;
