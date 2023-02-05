@@ -454,12 +454,7 @@ li:hover, .certificate:hover{
         color:#cbd2d4;
     }
     .container-title {
-        display: block;
         margin: 100px 20px 50px 20px;
-        text-align: center;
-        text-transform: uppercase;
-        color:rgb(74, 74, 74);
-        font-weight: 700;
     }
     .projects-container {
         justify-content: space-around;
@@ -503,6 +498,7 @@ li:hover, .certificate:hover{
         margin: 70px 0 0 0;
         flex-direction: row;
         align-items: flex-start;
+        background-color: transparent;
     }
     .cert-data {
         width: 50%;
