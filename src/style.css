@@ -364,9 +364,9 @@ li:hover, .certificate:hover{
         font-family:'Montserrat', sans-serif;
         text-align: center;
         line-height: 1;
-        font-size: 17px;
+        font-size: 15px;
         background-color : transparent;
-        padding: 15px 30px;
+        padding: 10px 25px;
         outline: none;
         margin-top: 10px;
         cursor: pointer;
@@ -585,7 +585,7 @@ li:hover, .certificate:hover{
 
   @media (min-width: 1410px) {
     .welcome-header {
-        font-size: 30px;
+        font-size: 40px;
     }
     .welcome-btn {
         margin-top: 30px;
@@ -639,7 +639,7 @@ li:hover, .certificate:hover{
 
   @media (min-width: 1550px) {
     .welcome-header {
-        font-size: 40px;
+        font-size: 45px;
     }
     .welcome-btn {
         padding: 18px 36px;
@@ -666,7 +666,7 @@ li:hover, .certificate:hover{
 
   @media (min-width: 1770px) {
     .welcome-header {
-        font-size: 50px;
+        font-size: 55px;
     }
     .welcome-btn {
         padding: 20px 40px;
@@ -743,7 +743,7 @@ li:hover, .certificate:hover{
 
   @media (min-width: 2130px) { 
         .welcome-header {
-            font-size: 40px;
+            font-size: 50px;
         }
         .welcome-btn {
             padding: 30px 70px;
@@ -813,7 +813,7 @@ li:hover, .certificate:hover{
 
   @media (min-width:2500px) {
     .welcome-header {
-        font-size: 56px;
+        font-size: 70px;
     }
     .welcome-btn {
         padding: 28px 60px;
@@ -834,9 +834,9 @@ li:hover, .certificate:hover{
     }
   }
 
-  @media (min-width: 3000px) {
-    .welcome-message {
-        font-size: 60px;
+  @media (min-width: 3300px) {
+    .welcome-header {
+        font-size: 75px;
     }
     .welcome-btn {
         padding: 40px 100px;
@@ -909,13 +909,13 @@ li:hover, .certificate:hover{
 
 @media (min-width: 3700px) {
     .welcome-header {
-        font-size: 70px;
+        font-size: 100px;
     }
 }
 
 @media (min-width: 4000px) {
     .welcome-header {
-        font-size: 100px;
+        font-size: 110px;
     }
     .welcome-btn {
         padding: 50px 110px;
