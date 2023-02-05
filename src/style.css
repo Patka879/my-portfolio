@@ -299,6 +299,12 @@ li:hover, .certificate:hover{
     .nav-right {
         font-size: 25px;
     }
+    .container-title {
+        margin-top: 180px;
+    }
+    .project-container, .experience-container, .skills-container {
+        margin-top: 100px;
+    }
     .project {
         margin: 25px 15px;
     }
@@ -307,9 +313,6 @@ li:hover, .certificate:hover{
     }
     .project--description {
         font-size: 20px;
-    }
-    .experience-container {
-        margin: 100px 40px 0px 40px;
     }
     .certificates-title {
         font-size: 36px;
