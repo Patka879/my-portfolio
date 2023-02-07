@@ -14,7 +14,7 @@ Project is created with:
 ## Setup 
 To start this project locally:
 ```
-$ npm ci
+$ npm install
 ```
 Clone the repository:
 ```
