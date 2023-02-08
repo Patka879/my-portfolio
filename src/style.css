@@ -129,11 +129,13 @@ body {
     justify-content: space-around;
 }
 
-@keyframes fadein {
-   from {opacity: 0%;}
-   to {opacity: 100%;}
+.fade-in {
+    transition: opacity 1s ease;
 }
-
+.fade-out {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
 
 .container-title {
     text-align: center;
@@ -153,9 +155,6 @@ body {
     text-align: center;
     align-items: center;
     width: 45%;  
-    animation-name: fadein;
-    animation-duration: 0.75s;
-    animation-timing-function: ease-in-out;   
     color: black;
 }
 
@@ -194,9 +193,6 @@ ul {
     text-align: center;
     line-height: 60px; 
     padding-inline-start: 10px;
-    animation-name: fadein;
-    animation-duration: 0.75s;
-    animation-timing-function: ease-in-out; 
     margin: 0px;
     text-decoration: none;
     color:rgb(28, 149, 190)
@@ -204,9 +200,6 @@ ul {
 
 .cert-data { 
     margin: 0px 22px 20px 22px;
-    animation-name: fadein;
-    animation-duration: 0.75s;
-    animation-timing-function: ease-in-out; 
 }
 
 .certificates-title {
@@ -266,9 +259,6 @@ li:hover, .certificate:hover{
     width: 40%;
     padding: 35px 0px 25px 0px;
     margin: 10px;
-    animation-name: fadein;
-    animation-duration: 0.75s;
-    animation-timing-function: ease-in-out; 
 }
 
 .skill--icon {
