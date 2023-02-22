@@ -1,4 +1,4 @@
-import {HTMLIcon, CSSIcon, SassIcon, JavaScriptIcon, ReactIcon, ApiIcon, NodeIcon, GitIcon, English, Docker, ERPIcon,SAPIcon, Responsive, Jira, JSONIcon} from "./images/index.js"
+import {HTMLIcon, CSSIcon, SassIcon, JavaScriptIcon, ReactIcon, ApiIcon, NodeIcon, GitIcon, English, Docker, ERPIcon,SAPIcon, Responsive, Jira, JSONIcon, Bootstrap} from "./images/index.js"
 
 
 export default [
@@ -31,6 +31,11 @@ export default [
         id: 4,
         title: "REST Api",
         coverImg: ApiIcon,
+    },
+    {
+        id: 19,
+        title: "Bootstrap",
+        coverImg: Bootstrap,
     },
     {
         id: 5,
