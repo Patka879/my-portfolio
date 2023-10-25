@@ -20,5 +20,12 @@ export default [
         description: `Over 70 hours of course work, coding challenges, and real-world projects
         containing HTML, CSS, JavaScript, React, UI design and more.`,
         link: 'https://www.freecodecamp.org/certification/patrycjamysiak/responsive-web-design'
+    },
+    {
+        id: 4,
+        title: 'Software developer EI',
+        description: `Over 200 hours of course that inluded Java Development, Algorithms and Data
+        Structure, Spring, CI/CD, Jenkins, Software Testing, databases and SQL.`,
+        link: 'https://app.diplomasafe.com/pl-PL/diploma/d350d14c568f29430c1b163a11e051d8784629223'
     }
 ]

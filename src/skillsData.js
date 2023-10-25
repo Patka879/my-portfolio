@@ -1,4 +1,4 @@
-import {HTMLIcon, CSSIcon, SassIcon, JavaScriptIcon, ReactIcon, ApiIcon, NodeIcon, GitIcon, English, Docker, ERPIcon,SAPIcon, Responsive, Jira, JSONIcon, Bootstrap} from "./images/index.js"
+import {HTMLIcon, Camel, Xml, Java, Jenkins, CSSIcon, SassIcon, JavaScriptIcon, ReactIcon, ApiIcon, NodeIcon, GitIcon, English, Docker, ERPIcon,SAPIcon, Responsive, Jira, JSONIcon, Bootstrap} from "./images/index.js"
 
 
 export default [
@@ -28,6 +28,21 @@ export default [
         coverImg: ReactIcon,
     },
     {
+        id: 15,
+        title: "JAVA",
+        coverImg: Java,
+    },
+    {
+        id: 17,
+        title: "XML",
+        coverImg: Xml,
+    },
+    {
+        id: 19,
+        title: "Apache Camel",
+        coverImg: Camel,
+    },
+    {
         id: 4,
         title: "REST Api",
         coverImg: ApiIcon,
@@ -46,6 +61,11 @@ export default [
         id: 7,
         title: "Git",
         coverImg: GitIcon,
+    },
+    {
+        id: 20,
+        title: "Jenkins",
+        coverImg: Jenkins,
     },
     {
         id: 8,

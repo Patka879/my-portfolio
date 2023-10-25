@@ -19,20 +19,14 @@ export default function Content() {
     return (
         <div>
             <div className='anchor-div' id='projects'></div>
-            <Slide duration={2000}>
             <h1 className='container-title'>Projects</h1>
             <Projects />
-            </Slide>
             <div className='anchor-div' id='experience'></div>
-            <Slide duration={2000}>
             <h1 className='container-title'>Experience</h1>
             <Experience />
-            </Slide>
             <div className='anchor-div' id='skills'></div>
-            <Slide duration={2000}>
             <h1 className='container-title'>Skills</h1>
             <Skills />
-            </Slide>
         </div>
     )
 }
