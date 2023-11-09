@@ -1,14 +1,7 @@
-import {Car, Interior, Ruler, Exclam, Calculator, Meme,  Palindrome, Cash, Phone, Dragon, Portfolio, Dice, Steak} from "./images/index.js" 
+import {Car, Room, Interior, Ruler, Exclam, Calculator, Meme,  Palindrome, Cash, Phone, Dragon, Portfolio, Dice, Steak} from "./images/index.js" 
 
 
 export default [
-    {
-        id: 10,
-        title: "Tenzies",
-        coverImg: Dice,
-        description: "Simple dice game",
-        link: "/tenzies",
-    },
     {
         id: 13,
         title: "Interiors",
@@ -31,6 +24,20 @@ export default [
         link: "/landing-page/public/index.html",
     },
     {
+        id: 14,
+        title: "Bookey",
+        coverImg: Room,
+        description: "Conference room reservation app created using java, spring-boot and Rest API",
+        link: "https://github.com/Patka879/conference-room-reservation-app",
+    },
+    {
+        id: 10,
+        title: "Tenzies",
+        coverImg: Dice,
+        description: "Simple dice game",
+        link: "/tenzies",
+    },
+    {
         id: 3,
         title: "Money Tracker",
         coverImg: Calculator,
@@ -38,11 +45,11 @@ export default [
         link: "/money-tracker-app/",
     },
     {
-        id: 11,
-        title: "Generator",
-        coverImg: Meme,
-        description: "Meme generator",
-        link: "/generator",
+        id: 5,
+        title: "Cash Register",
+        coverImg: Cash,
+        description: "Returns change from given amount of money",
+        link: "/cash-register/",
     },
     {
         id: 2,
@@ -79,13 +86,6 @@ export default [
         description: "Validates the format of phone number",
         link: "/phone-check/",
     },
-    // {
-    //     id: 1,
-    //     title: "Timer",
-    //     coverImg: Stopwatch,
-    //     description: "Starts and stops the timer on command",
-    //     link: "https://github.com/Patka879/exercises/blob/master/timer.js",
-    // },
     {
         id: 9,
         title: "This Page",
