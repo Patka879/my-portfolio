@@ -73,13 +73,6 @@ export default [
         link: "/unit-converter/",
     },
     {
-        id: 5,
-        title: "Cash Register",
-        coverImg: Cash,
-        description: "Returns change from given amount of money",
-        link: "/cash-register/",
-    },
-    {
         id: 7,
         title: "Phone Check",
         coverImg: Phone,
