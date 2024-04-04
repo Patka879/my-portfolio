@@ -1,13 +1,19 @@
-import {Car, Room, Interior, Ruler, Exclam, Calculator, Meme,  Palindrome, Cash, Phone, Dragon, Portfolio, Dice, Steak} from "./images/index.js" 
+import {Car, Room, Interior, Ruler, Exclam, Calculator, Palindrome, Cash, Phone, Portfolio, Dice, Steak, Zuma} from "./images/index.js";
 
-
-export default [
+const projects = [
     {
         id: 13,
         title: "Interiors",
         coverImg: Interior,
         description: "Website created in Wordpress for an interior design company",
         link: "https://jinteriors.pl/",
+    },
+    {
+        id: 14,
+        title: "Zuma",
+        coverImg: Zuma,
+        description: "Website created in Wordpress for a tech startup",
+        link: "https://zuma.events/",
     },
     {
         id: 12,
@@ -17,14 +23,14 @@ export default [
         link: "/restaurant/",
     },
     {
-        id: 13,
+        id: 15,
         title: "BMW Page",
         coverImg: Car,
         description: "Landing Page for BMW",
         link: "/landing-page/public/index.html",
     },
     {
-        id: 14,
+        id: 16,
         title: "Bookey",
         coverImg: Room,
         description: "Conference room reservation app created using java, spring-boot and Rest API",
@@ -69,7 +75,7 @@ export default [
         id: 6,
         title: "Unit Converter",
         coverImg: Ruler,
-        description: "Converts beetween Imperial and Metric units",
+        description: "Converts between Imperial and Metric units",
         link: "/unit-converter/",
     },
     {
@@ -86,4 +92,6 @@ export default [
         description: "Portfolio page created with react.js",
         link: "https://github.com/Patka879/my-portfolio",
     }
-]
+];
+
+export default projects;
