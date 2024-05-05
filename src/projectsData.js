@@ -34,7 +34,7 @@ const projects = [
         title: "Bookey",
         coverImg: Room,
         description: "Conference room reservation app created using java, spring-boot and Rest API",
-        link: "https://github.com/Patka879/conference-room-reservation-app",
+        link: "/bookey/",
     },
     {
         id: 10,

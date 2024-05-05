@@ -10,40 +10,72 @@ services:
   generator-app:
     container_name: generator-app
     image: generator-app
-    build: ../react-small-projects/generator/
+    build:
+      context: https://github.com/Patka879/react-small-projects.git#master:generator
   tenzies-app:
     container_name: tenzies-app
     image: tenzies-app
-    build: ../react-small-projects/tenzies/
+    build: https://github.com/Patka879/react-small-projects.git#master:tenzies
   factorial-app:
     container_name: factorial-app
     image: factorial-app
-    build: ../exercises/factorial/
+    build: https://github.com/Patka879/exercises.git#master:factorial
   palindrome-app:
     container_name: palindrome-app
     image: palindrome-app
-    build: ../exercises/palindrome/
+    build: https://github.com/Patka879/exercises.git#master:palindrome
   unit-converter-app:
     container_name: unit-converter-app
     image: unit-converter-app
-    build: ../exercises/unit-converter/
+    build: https://github.com/Patka879/exercises.git#master:unit-converter
   cash-register-app:
     container_name: cash-register-app
     image: cash-register-app
-    build: ../exercises/cash-register/
+    build: https://github.com/Patka879/exercises.git#master:cash-register
   phone-check-app:
     container_name: phone-check-app
     image: phone-check-app
-    build: ../exercises/phone-check/
+    build: https://github.com/Patka879/exercises.git#master:phone-check
   restaurant:
     container_name: restaurant
     image: restaurant
-    build: ../restaurant/
+    build: https://github.com/Patka879/restaurant.git#master
   landing-page:
     container_name: landing-page
     image: landing-page
-    build: ../landing-page/
+    build: https://github.com/Patka879/landing-page.git#master
   money-tracker-app:
     container_name: money-tracker-app
     image: money-tracker-app
-    build: ../money-tracker-app/
+    build: https://github.com/Patka879/money-tracker-app.git#master
+  bookey-app-frontend:
+    container_name: bookey-app-frontend
+    image: bookey-app-frontend
+    build: https://github.com/Patka879/conference-room-reservation-app-front.git#master
+  bookey-app-backend:
+    container_name: bookey-app-backend
+    image: bookey-app-backend
+    build: https://github.com/Patka879/conference-room-reservation-app.git#master
+    restart: always
+    depends_on:
+      - bookey-app-db
+    ports:
+      - 8080:8080
+    networks:
+      - app-net
+  bookey-app-db:
+    image: postgres:alpine
+    container_name: bookey-app-db
+    restart: always
+    ports:
+      - "5433:5432"
+    networks:
+      - app-net
+    environment:
+      - POSTGRES_DB=bookey
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=Debussy321
+
+networks:
+  app-net:
+    driver: bridge
