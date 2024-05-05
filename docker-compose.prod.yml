@@ -7,51 +7,75 @@ services:
     ports:
       - 80:80
     build: .
+    networks:
+      - bookey-net
+      - nginx-net
   generator-app:
     container_name: generator-app
     image: generator-app
-    build:
-      context: https://github.com/Patka879/react-small-projects.git#master:generator
+    build: https://github.com/Patka879/react-small-projects.git#master:generator
+    networks:
+      - nginx-net
   tenzies-app:
     container_name: tenzies-app
     image: tenzies-app
     build: https://github.com/Patka879/react-small-projects.git#master:tenzies
+    networks:
+      - nginx-net
   factorial-app:
     container_name: factorial-app
     image: factorial-app
     build: https://github.com/Patka879/exercises.git#master:factorial
+    networks:
+      - nginx-net
   palindrome-app:
     container_name: palindrome-app
     image: palindrome-app
     build: https://github.com/Patka879/exercises.git#master:palindrome
+    networks:
+      - nginx-net
   unit-converter-app:
     container_name: unit-converter-app
     image: unit-converter-app
     build: https://github.com/Patka879/exercises.git#master:unit-converter
+    networks:
+      - nginx-net
   cash-register-app:
     container_name: cash-register-app
     image: cash-register-app
     build: https://github.com/Patka879/exercises.git#master:cash-register
+    networks:
+      - nginx-net
   phone-check-app:
     container_name: phone-check-app
     image: phone-check-app
     build: https://github.com/Patka879/exercises.git#master:phone-check
+    networks:
+      - nginx-net
   restaurant:
     container_name: restaurant
     image: restaurant
     build: https://github.com/Patka879/restaurant.git#master
+    networks:
+      - nginx-net
   landing-page:
     container_name: landing-page
     image: landing-page
     build: https://github.com/Patka879/landing-page.git#master
+    networks:
+      - nginx-net
   money-tracker-app:
     container_name: money-tracker-app
     image: money-tracker-app
     build: https://github.com/Patka879/money-tracker-app.git#master
+    networks:
+      - nginx-net
   bookey-app-frontend:
     container_name: bookey-app-frontend
     image: bookey-app-frontend
     build: https://github.com/Patka879/conference-room-reservation-app-front.git#master
+    networks:
+      - nginx-net
   bookey-app-backend:
     container_name: bookey-app-backend
     image: bookey-app-backend
@@ -62,7 +86,8 @@ services:
     ports:
       - 8080:8080
     networks:
-      - app-net
+      - bookey-net
+      - nginx-net
   bookey-app-db:
     image: postgres:alpine
     container_name: bookey-app-db
@@ -70,12 +95,14 @@ services:
     ports:
       - "5433:5432"
     networks:
-      - app-net
+      - bookey-net
     environment:
       - POSTGRES_DB=bookey
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=Debussy321
 
 networks:
-  app-net:
+  bookey-net:
+    driver: bridge
+  nginx-net:
     driver: bridge
