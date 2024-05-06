@@ -33,7 +33,7 @@ const projects = [
         id: 16,
         title: "Bookey",
         coverImg: Room,
-        description: "Conference room reservation app created using java, spring-boot and Rest API",
+        description: "Conference room reservation app created using java, spring-boot and angular",
         link: "/bookey/",
     },
     {
